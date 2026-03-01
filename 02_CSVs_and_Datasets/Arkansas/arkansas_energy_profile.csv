@@ -1,0 +1,9 @@
+metric,value,national_average,national_rank,year,source
+Average retail electricity price (cents/kWh),9.59,12.94,43 (low cost),2024,EIA
+Net summer capacity (MW),15907,N/A,31,2024,EIA
+Net generation (MWh),61542484,N/A,26,2024,EIA
+Total retail sales (MWh),49895812,N/A,29,2024,EIA
+Primary energy source,Natural gas,N/A,N/A,2024,EIA
+Carbon dioxide emissions (thousand metric tons),26858,N/A,26,2024,EIA
+CO2 intensity (lbs/MWh),960,N/A,15,2024,EIA
+Rate headroom under Act 373 cap (% below national avg),~26%,N/A,N/A,2024,Calculated from EIA data

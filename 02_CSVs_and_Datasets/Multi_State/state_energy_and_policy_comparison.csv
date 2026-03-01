@@ -1,0 +1,14 @@
+state,avg_retail_price_cents_kwh,national_rank_cost,net_summer_capacity_mw,net_generation_mwh,total_retail_sales_mwh,primary_source,policy_posture,key_action,source
+Arkansas,9.59,43,15907,61542484,49895812,Natural gas,Accommodate,"Act 373 (PSC bypass), Act 548 (data center tax incentives)",EIA 2024
+Texas,9.79,42,168317,566502688,505431317,Natural gas,Accommodate,"ERCOT model, HB 2559 (preempts local moratoriums)",EIA 2024
+Oklahoma,9.09,48,31907,94069145,72083773,Natural gas,Push back,"HB 2992 (ratepayer protection), SB 1488 (moratorium)",EIA 2024
+New Hampshire,20.61,7,4470,16942479,10913961,Nuclear,Accommodate (off-grid),"HB 672 (off-grid provider exemption)",EIA 2024
+Virginia,10.62,38,29147,102698615,138044772,Natural gas,Push back,"HB 1515 (moratorium), HB 961 (tax incentive rollback)",EIA 2024
+Georgia,11.40,26,39746,139805428,150003965,Natural gas,Push back,"SB 476 (eliminate credits), moratorium bill",EIA 2024
+Mississippi,10.93,33,15961,77336712,48684612,Natural gas,Accommodate,AVAIO $6B campus (Brandon),EIA 2024
+New York,19.66,10,41288,129015493,140497501,Natural gas,Push back,"A 10141/S9144 (3-year moratorium)",EIA 2024
+Vermont,18.41,11,864,2258891,5458947,N/A,Push back,"S.205 (moratorium until July 2030)",EIA 2024
+Maryland,15.04,16,11718,35424816,59018688,N/A,Push back,"HB 120 (emergency moratorium)",EIA 2024
+South Dakota,10.87,34,7226,20871994,13637204,N/A,Push back,"SB 232 (1-year hyperscale moratorium)",EIA 2024
+Alabama,11.90,22,30996,142921216,87522932,N/A,Push back,"SB 270 (infrastructure cost conditions)",EIA 2024
+Arizona,12.74,19,32877,116026511,90843288,N/A,Push back,"HB 2756 (grid connection cost protections)",EIA 2024

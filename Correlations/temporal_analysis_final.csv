@@ -1,0 +1,631 @@
+state,state_code,posture,federal_action,action_type,action_date,trigger_date,lag_days
+Arkansas,AR,Accommodate,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-03-20,-59
+Arkansas,AR,Accommodate,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-03-20,-59
+Arkansas,AR,Accommodate,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-03-20,-59
+Arkansas,AR,Accommodate,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-03-20,-52
+Arkansas,AR,Accommodate,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-03-20,-51
+Arkansas,AR,Accommodate,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-03-20,-20
+Arkansas,AR,Accommodate,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-03-20,-19
+Arkansas,AR,Accommodate,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-03-20,-6
+Arkansas,AR,Accommodate,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-03-20,12
+Arkansas,AR,Accommodate,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-03-20,14
+Arkansas,AR,Accommodate,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-03-20,15
+Arkansas,AR,Accommodate,FEMA — Arkansas Tornado Disaster Declaration (Denied),denied,2025-04-11,2025-03-20,22
+Arkansas,AR,Accommodate,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-03-20,35
+Arkansas,AR,Accommodate,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-03-20,60
+Arkansas,AR,Accommodate,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-03-20,73
+Arkansas,AR,Accommodate,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-03-20,74
+Arkansas,AR,Accommodate,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-03-20,74
+Arkansas,AR,Accommodate,HHS — Head Start,withheld,2025-06-30,2025-03-20,102
+Arkansas,AR,Accommodate,Dept. of Education — K-12 Grants (State-Specific Withholding),withheld,2025-07-01,2025-03-20,103
+Arkansas,AR,Accommodate,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-03-20,106
+Arkansas,AR,Accommodate,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-03-20,165
+Arkansas,AR,Accommodate,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-03-20,213
+Arkansas,AR,Accommodate,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-03-20,213
+New Hampshire,NH,Accommodate,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-08-01,-193
+New Hampshire,NH,Accommodate,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-08-01,-193
+New Hampshire,NH,Accommodate,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-08-01,-193
+New Hampshire,NH,Accommodate,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-08-01,-186
+New Hampshire,NH,Accommodate,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-08-01,-185
+New Hampshire,NH,Accommodate,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-08-01,-154
+New Hampshire,NH,Accommodate,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-08-01,-153
+New Hampshire,NH,Accommodate,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-08-01,-140
+New Hampshire,NH,Accommodate,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-08-01,-122
+New Hampshire,NH,Accommodate,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-08-01,-120
+New Hampshire,NH,Accommodate,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-08-01,-119
+New Hampshire,NH,Accommodate,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-08-01,-99
+New Hampshire,NH,Accommodate,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-08-01,-74
+New Hampshire,NH,Accommodate,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-08-01,-61
+New Hampshire,NH,Accommodate,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-08-01,-60
+New Hampshire,NH,Accommodate,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-08-01,-60
+New Hampshire,NH,Accommodate,HHS — Head Start,withheld,2025-06-30,2025-08-01,-32
+New Hampshire,NH,Accommodate,Dept. of Education — K-12 Grants (State-Specific Withholding),withheld,2025-07-01,2025-08-01,-31
+New Hampshire,NH,Accommodate,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-08-01,-28
+New Hampshire,NH,Accommodate,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-08-01,31
+New Hampshire,NH,Accommodate,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-08-01,62
+New Hampshire,NH,Accommodate,DOE — Clean Energy Grants (NH-Specific Terminations),canceled,2025-10-02,2025-08-01,62
+New Hampshire,NH,Accommodate,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-08-01,79
+New Hampshire,NH,Accommodate,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-08-01,79
+Texas,TX,Accommodate,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-06-20,-151
+Texas,TX,Accommodate,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-06-20,-151
+Texas,TX,Accommodate,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2025-06-20,-151
+Texas,TX,Accommodate,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-06-20,-151
+Texas,TX,Accommodate,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-06-20,-144
+Texas,TX,Accommodate,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-06-20,-143
+Texas,TX,Accommodate,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-06-20,-112
+Texas,TX,Accommodate,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-06-20,-111
+Texas,TX,Accommodate,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-06-20,-98
+Texas,TX,Accommodate,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-06-20,-80
+Texas,TX,Accommodate,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-06-20,-78
+Texas,TX,Accommodate,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-06-20,-77
+Texas,TX,Accommodate,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-06-20,-57
+Texas,TX,Accommodate,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-06-20,-32
+Texas,TX,Accommodate,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-06-20,-19
+Texas,TX,Accommodate,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-06-20,-18
+Texas,TX,Accommodate,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-06-20,-18
+Texas,TX,Accommodate,HHS — Head Start,withheld,2025-06-30,2025-06-20,10
+Texas,TX,Accommodate,Dept. of Education — K-12 Grants (State-Specific Withholding),withheld,2025-07-01,2025-06-20,11
+Texas,TX,Accommodate,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-06-20,14
+Texas,TX,Accommodate,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-06-20,73
+Texas,TX,Accommodate,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-06-20,109
+Texas,TX,Accommodate,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-06-20,121
+Texas,TX,Accommodate,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-06-20,121
+Colorado,CO,Neutral/Mixed,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Colorado,CO,Neutral/Mixed,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Colorado,CO,Neutral/Mixed,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Colorado,CO,Neutral/Mixed,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Colorado,CO,Neutral/Mixed,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Colorado,CO,Neutral/Mixed,Byrne JAG (DOJ),conditioned,2025-02-05,2025-01-01,35
+Colorado,CO,Neutral/Mixed,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Colorado,CO,Neutral/Mixed,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Colorado,CO,Neutral/Mixed,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Colorado,CO,Neutral/Mixed,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Colorado,CO,Neutral/Mixed,FEMA — Disaster Relief Grants (Continued Freeze),frozen,2025-04-02,2025-01-01,91
+Colorado,CO,Neutral/Mixed,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Colorado,CO,Neutral/Mixed,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Colorado,CO,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Colorado,CO,Neutral/Mixed,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Colorado,CO,Neutral/Mixed,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-01-01,148
+Colorado,CO,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Colorado,CO,Neutral/Mixed,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Colorado,CO,Neutral/Mixed,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Colorado,CO,Neutral/Mixed,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Colorado,CO,Neutral/Mixed,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Colorado,CO,Neutral/Mixed,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2025-01-01,229
+Colorado,CO,Neutral/Mixed,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Colorado,CO,Neutral/Mixed,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+Colorado,CO,Neutral/Mixed,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Colorado,CO,Neutral/Mixed,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Colorado,CO,Neutral/Mixed,FEMA — Disaster Relief Fund (Selective Release — Excluded States),withheld,2026-02-26,2025-01-01,421
+Minnesota,MN,Neutral/Mixed,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-06-01,-132
+Minnesota,MN,Neutral/Mixed,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-06-01,-132
+Minnesota,MN,Neutral/Mixed,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-06-01,-132
+Minnesota,MN,Neutral/Mixed,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-06-01,-125
+Minnesota,MN,Neutral/Mixed,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-06-01,-124
+Minnesota,MN,Neutral/Mixed,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-06-01,-93
+Minnesota,MN,Neutral/Mixed,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-06-01,-92
+Minnesota,MN,Neutral/Mixed,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-06-01,-79
+Minnesota,MN,Neutral/Mixed,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-06-01,-61
+Minnesota,MN,Neutral/Mixed,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-06-01,-59
+Minnesota,MN,Neutral/Mixed,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-06-01,-58
+Minnesota,MN,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-06-01,-38
+Minnesota,MN,Neutral/Mixed,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-06-01,-13
+Minnesota,MN,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-06-01,0
+Minnesota,MN,Neutral/Mixed,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-06-01,1
+Minnesota,MN,Neutral/Mixed,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-06-01,1
+Minnesota,MN,Neutral/Mixed,HHS — Head Start,withheld,2025-06-30,2025-06-01,29
+Minnesota,MN,Neutral/Mixed,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-06-01,33
+Minnesota,MN,Neutral/Mixed,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-06-01,92
+Minnesota,MN,Neutral/Mixed,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-06-01,123
+Minnesota,MN,Neutral/Mixed,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-06-01,128
+Minnesota,MN,Neutral/Mixed,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-06-01,140
+Minnesota,MN,Neutral/Mixed,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-06-01,140
+Minnesota,MN,Neutral/Mixed,FEMA — Disaster Relief Fund (Selective Release — Excluded States),withheld,2026-02-26,2025-06-01,270
+New Jersey,NJ,Neutral/Mixed,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+New Jersey,NJ,Neutral/Mixed,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+New Jersey,NJ,Neutral/Mixed,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+New Jersey,NJ,Neutral/Mixed,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+New Jersey,NJ,Neutral/Mixed,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+New Jersey,NJ,Neutral/Mixed,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+New Jersey,NJ,Neutral/Mixed,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+New Jersey,NJ,Neutral/Mixed,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+New Jersey,NJ,Neutral/Mixed,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+New Jersey,NJ,Neutral/Mixed,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+New Jersey,NJ,Neutral/Mixed,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+New Jersey,NJ,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+New Jersey,NJ,Neutral/Mixed,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+New Jersey,NJ,Neutral/Mixed,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-01-01,148
+New Jersey,NJ,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+New Jersey,NJ,Neutral/Mixed,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+New Jersey,NJ,Neutral/Mixed,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+New Jersey,NJ,Neutral/Mixed,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+New Jersey,NJ,Neutral/Mixed,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+New Jersey,NJ,Neutral/Mixed,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2025-01-01,229
+New Jersey,NJ,Neutral/Mixed,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+New Jersey,NJ,Neutral/Mixed,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+New Jersey,NJ,Neutral/Mixed,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-01-01,279
+New Jersey,NJ,Neutral/Mixed,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+New Jersey,NJ,Neutral/Mixed,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+New Mexico,NM,Neutral/Mixed,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+New Mexico,NM,Neutral/Mixed,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+New Mexico,NM,Neutral/Mixed,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2025-01-01,19
+New Mexico,NM,Neutral/Mixed,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+New Mexico,NM,Neutral/Mixed,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+New Mexico,NM,Neutral/Mixed,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+New Mexico,NM,Neutral/Mixed,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+New Mexico,NM,Neutral/Mixed,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+New Mexico,NM,Neutral/Mixed,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+New Mexico,NM,Neutral/Mixed,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+New Mexico,NM,Neutral/Mixed,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+New Mexico,NM,Neutral/Mixed,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+New Mexico,NM,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+New Mexico,NM,Neutral/Mixed,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+New Mexico,NM,Neutral/Mixed,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-01-01,148
+New Mexico,NM,Neutral/Mixed,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+New Mexico,NM,Neutral/Mixed,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+New Mexico,NM,Neutral/Mixed,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+New Mexico,NM,Neutral/Mixed,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+New Mexico,NM,Neutral/Mixed,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+New Mexico,NM,Neutral/Mixed,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2025-01-01,229
+New Mexico,NM,Neutral/Mixed,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+New Mexico,NM,Neutral/Mixed,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+New Mexico,NM,Neutral/Mixed,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+New Mexico,NM,Neutral/Mixed,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Alabama,AL,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Alabama,AL,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Alabama,AL,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Alabama,AL,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Alabama,AL,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Alabama,AL,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Alabama,AL,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Alabama,AL,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Alabama,AL,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Alabama,AL,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Alabama,AL,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Alabama,AL,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Alabama,AL,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Alabama,AL,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Alabama,AL,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Alabama,AL,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Alabama,AL,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Alabama,AL,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Alabama,AL,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Alabama,AL,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Alabama,AL,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Arizona,AZ,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Arizona,AZ,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Arizona,AZ,Push back,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2026-01-01,-346
+Arizona,AZ,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Arizona,AZ,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Arizona,AZ,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Arizona,AZ,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Arizona,AZ,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Arizona,AZ,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Arizona,AZ,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Arizona,AZ,Push back,FEMA — Disaster Relief Grants (Continued Freeze),frozen,2025-04-02,2026-01-01,-274
+Arizona,AZ,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Arizona,AZ,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Arizona,AZ,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Arizona,AZ,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Arizona,AZ,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Arizona,AZ,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Arizona,AZ,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Arizona,AZ,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Arizona,AZ,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Arizona,AZ,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Arizona,AZ,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Arizona,AZ,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+California,CA,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-10-11,-264
+California,CA,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-10-11,-264
+California,CA,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-10-11,-264
+California,CA,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-10-11,-257
+California,CA,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-10-11,-256
+California,CA,Push back,NIH — Research Grants (Targeted Terminations),terminated,2025-02-01,2025-10-11,-252
+California,CA,Push back,Byrne JAG (DOJ),conditioned,2025-02-05,2025-10-11,-248
+California,CA,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-10-11,-225
+California,CA,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-10-11,-224
+California,CA,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-10-11,-211
+California,CA,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-10-11,-193
+California,CA,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-10-11,-191
+California,CA,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-10-11,-190
+California,CA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-10-11,-170
+California,CA,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-10-11,-145
+California,CA,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-10-11,-135
+California,CA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-10-11,-132
+California,CA,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-10-11,-131
+California,CA,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-10-11,-131
+California,CA,Push back,HHS — Head Start,withheld,2025-06-30,2025-10-11,-103
+California,CA,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-10-11,-99
+California,CA,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2025-10-11,-54
+California,CA,Push back,HHS — PREP Sex Education Grant (Terminated),terminated,2025-08-21,2025-10-11,-51
+California,CA,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-10-11,-40
+California,CA,Push back,Dept. of Education — MSI Discretionary Grants,canceled,2025-09-18,2025-10-11,-23
+California,CA,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-10-11,-9
+California,CA,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-10-11,-4
+California,CA,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-10-11,8
+California,CA,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-10-11,8
+California,CA,Push back,FEMA — Disaster Relief Fund (Selective Release — Excluded States),withheld,2026-02-26,2025-10-11,138
+Connecticut,CT,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Connecticut,CT,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Connecticut,CT,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Connecticut,CT,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Connecticut,CT,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Connecticut,CT,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Connecticut,CT,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Connecticut,CT,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Connecticut,CT,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Connecticut,CT,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Connecticut,CT,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Connecticut,CT,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Connecticut,CT,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Connecticut,CT,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-01-01,148
+Connecticut,CT,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Connecticut,CT,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Connecticut,CT,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Connecticut,CT,Push back,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Connecticut,CT,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Connecticut,CT,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Connecticut,CT,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+Connecticut,CT,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Connecticut,CT,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Delaware,DE,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Delaware,DE,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Delaware,DE,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Delaware,DE,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Delaware,DE,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Delaware,DE,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Delaware,DE,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Delaware,DE,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Delaware,DE,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Delaware,DE,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Delaware,DE,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Delaware,DE,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Delaware,DE,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Delaware,DE,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Delaware,DE,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Delaware,DE,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Delaware,DE,Push back,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Delaware,DE,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Delaware,DE,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Delaware,DE,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+Delaware,DE,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-01-01,279
+Delaware,DE,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Delaware,DE,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Georgia,GA,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Georgia,GA,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Georgia,GA,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Georgia,GA,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Georgia,GA,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Georgia,GA,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Georgia,GA,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Georgia,GA,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Georgia,GA,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Georgia,GA,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Georgia,GA,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Georgia,GA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Georgia,GA,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Georgia,GA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Georgia,GA,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Georgia,GA,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Georgia,GA,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Georgia,GA,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Georgia,GA,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Georgia,GA,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Georgia,GA,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Idaho,ID,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Idaho,ID,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Idaho,ID,Push back,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2025-01-01,19
+Idaho,ID,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Idaho,ID,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Idaho,ID,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Idaho,ID,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Idaho,ID,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Idaho,ID,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Idaho,ID,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Idaho,ID,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Idaho,ID,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Idaho,ID,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Idaho,ID,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Idaho,ID,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Idaho,ID,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Idaho,ID,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Idaho,ID,Push back,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Idaho,ID,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Idaho,ID,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Idaho,ID,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Idaho,ID,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Illinois,IL,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Illinois,IL,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Illinois,IL,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Illinois,IL,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Illinois,IL,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Illinois,IL,Push back,Byrne JAG (DOJ),conditioned,2025-02-05,2025-01-01,35
+Illinois,IL,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Illinois,IL,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Illinois,IL,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Illinois,IL,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Illinois,IL,Push back,FEMA — Disaster Relief Grants (Continued Freeze),frozen,2025-04-02,2025-01-01,91
+Illinois,IL,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Illinois,IL,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Illinois,IL,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Illinois,IL,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Illinois,IL,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-01-01,148
+Illinois,IL,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Illinois,IL,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Illinois,IL,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Illinois,IL,Push back,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Illinois,IL,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Illinois,IL,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2025-01-01,229
+Illinois,IL,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Illinois,IL,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+Illinois,IL,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-01-01,279
+Illinois,IL,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Illinois,IL,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Illinois,IL,Push back,FEMA — Individual Assistance (Aug 2025 Storms — Denied),denied,2026-02-07,2025-01-01,402
+Illinois,IL,Push back,FEMA — Disaster Relief Fund (Selective Release — Excluded States),withheld,2026-02-26,2025-01-01,421
+Massachusetts,MA,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Massachusetts,MA,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Massachusetts,MA,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Massachusetts,MA,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Massachusetts,MA,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Massachusetts,MA,Push back,Byrne JAG (DOJ),conditioned,2025-02-05,2026-01-01,-330
+Massachusetts,MA,Push back,EPA — Solar For All / Clean Energy Grants,frozen,2025-02-14,2026-01-01,-321
+Massachusetts,MA,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Massachusetts,MA,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Massachusetts,MA,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Massachusetts,MA,Push back,EPA — Environmental Finance Center Program,canceled,2025-03-27,2026-01-01,-280
+Massachusetts,MA,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Massachusetts,MA,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Massachusetts,MA,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Massachusetts,MA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Massachusetts,MA,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Massachusetts,MA,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2026-01-01,-217
+Massachusetts,MA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Massachusetts,MA,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Massachusetts,MA,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Massachusetts,MA,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Massachusetts,MA,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Massachusetts,MA,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2026-01-01,-136
+Massachusetts,MA,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Massachusetts,MA,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2026-01-01,-91
+Massachusetts,MA,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Massachusetts,MA,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Maryland,MD,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Maryland,MD,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Maryland,MD,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Maryland,MD,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Maryland,MD,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Maryland,MD,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Maryland,MD,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Maryland,MD,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Maryland,MD,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Maryland,MD,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Maryland,MD,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Maryland,MD,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Maryland,MD,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Maryland,MD,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Maryland,MD,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Maryland,MD,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Maryland,MD,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Maryland,MD,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Maryland,MD,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Maryland,MD,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2026-01-01,-91
+Maryland,MD,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Maryland,MD,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+New York,NY,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-02-01,-377
+New York,NY,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-02-01,-377
+New York,NY,Push back,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2026-02-01,-377
+New York,NY,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-02-01,-377
+New York,NY,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-02-01,-370
+New York,NY,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-02-01,-369
+New York,NY,Push back,Byrne JAG (DOJ),conditioned,2025-02-05,2026-02-01,-361
+New York,NY,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-02-01,-338
+New York,NY,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-02-01,-337
+New York,NY,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-02-01,-324
+New York,NY,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-02-01,-306
+New York,NY,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-02-01,-304
+New York,NY,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-02-01,-303
+New York,NY,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-02-01,-283
+New York,NY,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-02-01,-258
+New York,NY,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2026-02-01,-248
+New York,NY,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-02-01,-245
+New York,NY,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-02-01,-244
+New York,NY,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-02-01,-244
+New York,NY,Push back,HHS — Head Start,withheld,2025-06-30,2026-02-01,-216
+New York,NY,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-02-01,-212
+New York,NY,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2026-02-01,-167
+New York,NY,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-02-01,-153
+New York,NY,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2026-02-01,-122
+New York,NY,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-02-01,-105
+New York,NY,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-02-01,-105
+Ohio,OH,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Ohio,OH,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Ohio,OH,Push back,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2025-01-01,19
+Ohio,OH,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Ohio,OH,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Ohio,OH,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Ohio,OH,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Ohio,OH,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Ohio,OH,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Ohio,OH,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Ohio,OH,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Ohio,OH,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Ohio,OH,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Ohio,OH,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Ohio,OH,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Ohio,OH,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Ohio,OH,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Ohio,OH,Push back,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Ohio,OH,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Ohio,OH,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Ohio,OH,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-01-01,279
+Ohio,OH,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Ohio,OH,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+Oklahoma,OK,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Oklahoma,OK,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Oklahoma,OK,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Oklahoma,OK,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Oklahoma,OK,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Oklahoma,OK,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Oklahoma,OK,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Oklahoma,OK,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Oklahoma,OK,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Oklahoma,OK,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Oklahoma,OK,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Oklahoma,OK,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Oklahoma,OK,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Oklahoma,OK,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Oklahoma,OK,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Oklahoma,OK,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Oklahoma,OK,Push back,FEMA — Hazard Mitigation Grants (Denied to 4 States),denied,2025-06-11,2026-01-01,-204
+Oklahoma,OK,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Oklahoma,OK,Push back,Dept. of Education — K-12 Grants (State-Specific Withholding),withheld,2025-07-01,2026-01-01,-184
+Oklahoma,OK,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Oklahoma,OK,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Oklahoma,OK,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Oklahoma,OK,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Oregon,OR,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2025-01-01,19
+Oregon,OR,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2025-01-01,19
+Oregon,OR,Push back,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2025-01-01,19
+Oregon,OR,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2025-01-01,19
+Oregon,OR,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2025-01-01,26
+Oregon,OR,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2025-01-01,27
+Oregon,OR,Push back,Byrne JAG (DOJ),conditioned,2025-02-05,2025-01-01,35
+Oregon,OR,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2025-01-01,58
+Oregon,OR,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2025-01-01,59
+Oregon,OR,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2025-01-01,72
+Oregon,OR,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2025-01-01,90
+Oregon,OR,Push back,FEMA — Disaster Relief Grants (Continued Freeze),frozen,2025-04-02,2025-01-01,91
+Oregon,OR,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2025-01-01,92
+Oregon,OR,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2025-01-01,93
+Oregon,OR,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2025-01-01,113
+Oregon,OR,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2025-01-01,138
+Oregon,OR,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2025-01-01,148
+Oregon,OR,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2025-01-01,151
+Oregon,OR,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2025-01-01,152
+Oregon,OR,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2025-01-01,152
+Oregon,OR,Push back,HHS — Head Start,withheld,2025-06-30,2025-01-01,180
+Oregon,OR,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2025-01-01,184
+Oregon,OR,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2025-01-01,229
+Oregon,OR,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2025-01-01,243
+Oregon,OR,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2025-01-01,274
+Oregon,OR,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2025-01-01,279
+Oregon,OR,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2025-01-01,291
+Oregon,OR,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2025-01-01,291
+South Dakota,SD,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+South Dakota,SD,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+South Dakota,SD,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+South Dakota,SD,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+South Dakota,SD,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+South Dakota,SD,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+South Dakota,SD,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+South Dakota,SD,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+South Dakota,SD,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+South Dakota,SD,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+South Dakota,SD,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+South Dakota,SD,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+South Dakota,SD,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+South Dakota,SD,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+South Dakota,SD,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+South Dakota,SD,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+South Dakota,SD,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+South Dakota,SD,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+South Dakota,SD,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+South Dakota,SD,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2026-01-01,-86
+South Dakota,SD,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+South Dakota,SD,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Virginia,VA,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Virginia,VA,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Virginia,VA,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Virginia,VA,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Virginia,VA,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Virginia,VA,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Virginia,VA,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Virginia,VA,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Virginia,VA,Push back,EPA — Environmental Finance Center Program,canceled,2025-03-27,2026-01-01,-280
+Virginia,VA,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Virginia,VA,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Virginia,VA,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Virginia,VA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Virginia,VA,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Virginia,VA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Virginia,VA,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Virginia,VA,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Virginia,VA,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Virginia,VA,Push back,Dept. of Education — K-12 Grants (State-Specific Withholding),withheld,2025-07-01,2026-01-01,-184
+Virginia,VA,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Virginia,VA,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Virginia,VA,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Virginia,VA,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Vermont,VT,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Vermont,VT,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Vermont,VT,Push back,CHIPS Act (Commerce Dept.),delayed,2025-01-20,2026-01-01,-346
+Vermont,VT,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Vermont,VT,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Vermont,VT,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Vermont,VT,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Vermont,VT,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Vermont,VT,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Vermont,VT,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Vermont,VT,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Vermont,VT,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Vermont,VT,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Vermont,VT,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Vermont,VT,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Vermont,VT,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Vermont,VT,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Vermont,VT,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Vermont,VT,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Vermont,VT,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Vermont,VT,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2026-01-01,-91
+Vermont,VT,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Vermont,VT,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Washington,WA,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-01-01,-346
+Washington,WA,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-01-01,-346
+Washington,WA,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-01-01,-346
+Washington,WA,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-01-01,-339
+Washington,WA,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-01-01,-338
+Washington,WA,Push back,Byrne JAG (DOJ),conditioned,2025-02-05,2026-01-01,-330
+Washington,WA,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-01-01,-307
+Washington,WA,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-01-01,-306
+Washington,WA,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-01-01,-293
+Washington,WA,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-01-01,-275
+Washington,WA,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-01-01,-273
+Washington,WA,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-01-01,-272
+Washington,WA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-01-01,-252
+Washington,WA,Push back,FEMA — Washington State Windstorm Aid (Denied),denied,2025-04-25,2026-01-01,-251
+Washington,WA,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-01-01,-227
+Washington,WA,Push back,DHS — All Federal Grants (Sanctuary List),threatened,2025-05-29,2026-01-01,-217
+Washington,WA,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-01-01,-214
+Washington,WA,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-01-01,-213
+Washington,WA,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-01-01,-213
+Washington,WA,Push back,HHS — Head Start,withheld,2025-06-30,2026-01-01,-185
+Washington,WA,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-01-01,-181
+Washington,WA,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2026-01-01,-136
+Washington,WA,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-01-01,-122
+Washington,WA,Push back,DOE — Clean Energy Grants (IRA/IIJA),canceled,2025-10-02,2026-01-01,-91
+Washington,WA,Push back,DOE — Hydrogen Hub Grant Terminations (All 7 Regional Hubs),canceled,2025-10-07,2026-01-01,-86
+Washington,WA,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-01-01,-74
+Washington,WA,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-01-01,-74
+Wisconsin,WI,Push back,IIJA / IRA (Blanket Pause),frozen,2025-01-20,2026-02-01,-377
+Wisconsin,WI,Push back,NEVI (EV Charging — IIJA),frozen,2025-01-20,2026-02-01,-377
+Wisconsin,WI,Push back,DOE — Loan Programs Office (Clean Energy Loans),frozen,2025-01-20,2026-02-01,-377
+Wisconsin,WI,Push back,OMB M-25-13 (All Federal Grants),frozen,2025-01-27,2026-02-01,-370
+Wisconsin,WI,Push back,HHS — Medicaid / Head Start Portal Freeze,frozen,2025-01-28,2026-02-01,-369
+Wisconsin,WI,Push back,EPA — Greenhouse Gas Reduction Fund (IRA),frozen,2025-02-28,2026-02-01,-338
+Wisconsin,WI,Push back,VAWA — Office on Violence Against Women,frozen,2025-03-01,2026-02-01,-337
+Wisconsin,WI,Push back,EPA — Environmental Justice Grants (IRA),canceled,2025-03-14,2026-02-01,-324
+Wisconsin,WI,Push back,DOT — FY2025 Highway and Transit Formula Funding,delayed,2025-04-01,2026-02-01,-306
+Wisconsin,WI,Push back,Dept. of Education — Title I / K-12 Funding,withheld,2025-04-03,2026-02-01,-304
+Wisconsin,WI,Push back,FEMA — BRIC Hazard Mitigation Grants (Canceled),canceled,2025-04-04,2026-02-01,-303
+Wisconsin,WI,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-04-24,2026-02-01,-283
+Wisconsin,WI,Push back,DOE — LPO Conditional Loan Cancellations (7 Projects),canceled,2025-05-19,2026-02-01,-258
+Wisconsin,WI,Push back,BEAD Broadband (NTIA — IIJA),delayed,2025-06-01,2026-02-01,-245
+Wisconsin,WI,Push back,EPA — Clean Water / Drinking Water SRF (FY2026 89% Cut Proposed),threatened,2025-06-02,2026-02-01,-244
+Wisconsin,WI,Push back,EPA — 16 Categorical Grant Programs (FY2026 Proposed Elimination),threatened,2025-06-02,2026-02-01,-244
+Wisconsin,WI,Push back,HHS — Head Start,withheld,2025-06-30,2026-02-01,-216
+Wisconsin,WI,Push back,IRA — Clean Energy Tax Credits Phase-out (OBBBA / H.R. 1),rescinded,2025-07-04,2026-02-01,-212
+Wisconsin,WI,Push back,VOCA / VAWA (DOJ — Victims Funds),conditioned,2025-08-18,2026-02-01,-167
+Wisconsin,WI,Push back,HHS — Medicaid (Budget Reconciliation),conditioned,2025-09-01,2026-02-01,-153
+Wisconsin,WI,Push back,FEMA — Disaster Relief Fund,delayed,2025-10-19,2026-02-01,-105
+Wisconsin,WI,Push back,FEMA — Emergency Management Grants,delayed,2025-10-19,2026-02-01,-105

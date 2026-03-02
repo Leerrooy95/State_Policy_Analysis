@@ -1,7 +1,7 @@
-# State Policy Analysis — Full Findings Report (v1.3)
+# State Policy Analysis — Full Findings Report (v1.4)
 
 **Date:** March 2026
-**Version:** 1.3
+**Version:** 1.4
 **Scope:** State-level policy responses to data center and energy infrastructure expansion across the United States, with federal funding withholding correlation analysis
 **Methodology:** Multi-source web research, legislative text analysis, EIA energy data, statistical correlation (scipy.stats), temporal lag analysis, and causal inference (DoWhy)
 
@@ -37,9 +37,14 @@ By February 2026, **more than 300 state data center bills** had been filed acros
 
 At the federal level, the DATA Act of 2026 (Sen. Tom Cotton) and ALEC model legislation are creating a framework for "Consumer-Regulated Electric Utilities" (CREUs) — physically islanded power systems exempt from federal regulation — that could fundamentally restructure how large energy consumers interact with the grid.
 
-**New in v1.2 — Correlation Analysis:** Statistical analysis of 30 federal funding withholding events (Jan 2025 – Feb 2026) against 26 state data center policy postures reveals no significant overall correlation, but a striking pattern in energy-specific targeting: 100% of Neutral/Mixed states were hit, suggesting a "pressure on the undecided" dynamic. Temporal lag analysis across 346 state–federal-action pairs shows that federal actions on Neutral/Mixed states overwhelmingly follow state legislation (median lag +92 days, only 13.3% proactive), consistent with reactive retaliation. Causal inference modeling (DoWhy) confirms this effect is statistically significant (p < 0.0001) and robust to refutation tests.
+**New in v1.4 — Recalculated Statistical Analysis (N=42):** All statistical tests from v1.2 (N=30) have been recalculated against the expanded N=42 dataset (42 federal funding events, 27 classified states). Key corrections:
 
-**New in v1.3 — Expanded Dataset:** Federal funding withholding dataset expanded from N=30 to N=42 events (40% increase), adding 12 new verified events across DOE (Loan Programs Office freeze $41.2B, hydrogen hub terminations $7B, LPO conditional cancellations $8.45B), EPA (Environmental Finance Center grants canceled), FEMA (disaster declaration denials for AR, WV, WA; hazard mitigation denials for IA, MS, MO, OK), DOT (formula funding delay $38.5B), and legislative action (IRA clean energy tax credit phase-out via OBBBA). Key new finding: FEMA disaster denial for AR (an Accommodate state) and DOE hydrogen hub terminations affecting TX/LA (red states) demonstrate that federal funding actions are not purely partisan — cross-party impacts strengthen the need for recalculation of v1.2 statistical tests against the expanded dataset. Legacy v1.2 analysis outputs archived to `Archive/`.
+1. **No significant correlation confirmed** — ANOVA (F=0.661, p=0.5253), Kruskal-Wallis (H=2.564, p=0.2774), t-tests, chi-square, and Mann-Whitney U all remain non-significant. Data center policy posture does not predict federal funding targeting.
+2. **"100% Neutral/Mixed energy targeting" finding corrected** — With N=42, 100% of ALL posture groups (Accommodate, Push back, and Neutral/Mixed) are hit by energy-related federal actions. The v1.2 finding was an artifact of the smaller dataset.
+3. **Temporal lag finding corrected** — The v1.2 apparent difference in federal response timing between posture groups was entirely driven by when states introduced their legislation, not by differential federal behavior. When controlling for trigger dates, the DoWhy causal effect drops from +148 days (p < 0.0001) to **0.00 days (p = 1.000)**.
+4. **Cross-party impact verified** — AR ($64M education + tornado denial), TX ($700M education + hydrogen hub), OK ($70M education + hazard mitigation denied), NH ($27M education + DOE grant terminated) — politically aligned states are hit at comparable rates to opposing states. 52% of all events are blanket "All States" actions.
+
+The v1.2 narrative of "pressure on the undecided" is not supported by the recalculated data. The dominant pattern is one of broad federal austerity and policy realignment affecting all states, with targeted actions driven primarily by immigration/sanctuary policy positions rather than data center posture.
 
 ---
 
@@ -369,104 +374,90 @@ The fundamental question across all 50 states: **Who pays for the infrastructure
 
 ### 10.1 Dataset Overview
 
-The correlation analysis examines **42 documented federal funding withholding events** (January 2025 – February 2026) tracked in `Correlations/Federal_Funding_Withholding_2025-2026.csv` against state data center policy postures classified across 26 states. The v1.3 dataset represents a 40% expansion from the original v1.2 dataset (N=30), adding 12 new verified events covering DOE, EPA, FEMA, DOT, and legislative actions.
+The correlation analysis examines **42 documented federal funding withholding events** (January 2025 – February 2026) tracked in `Correlations/Federal_Funding_Withholding_2025-2026.csv` against state data center policy postures classified across 27 states. The dataset includes blanket "All States" actions (22 events, 52%) and state-specific targeted actions (20 events, 48%).
 
-**v1.3 New Events Added:**
-
-| Date | Program | Dollar Amount | Action Type | Key States |
-|------|---------|---------------|-------------|------------|
-| 2025-01-20 | DOE — Loan Programs Office (Clean Energy Loans) | $41.2B | Frozen | All States |
-| 2025-03-27 | EPA — Environmental Finance Center Program | $3.2M | Canceled | MA, NC, FL, VA, AK |
-| 2025-04-01 | DOT — FY2025 Highway/Transit Formula Funding | $38.5B | Delayed | All States |
-| 2025-04-11 | FEMA — AR Tornado Disaster Declaration | $8.8M | Denied | AR |
-| 2025-04-25 | FEMA — WV Flood Aid | N/A | Denied | WV |
-| 2025-04-25 | FEMA — WA Windstorm Aid | N/A | Denied | WA |
-| 2025-05-19 | DOE — LPO Conditional Loans (7 Projects) | $8.45B | Canceled | All States |
-| 2025-06-02 | EPA — Clean Water/Drinking Water SRF | $2.46B | Threatened | All States |
-| 2025-06-02 | EPA — 16 Categorical Grant Programs | $1.1B | Threatened | All States |
-| 2025-06-11 | FEMA — Hazard Mitigation Grants | N/A | Denied | IA, MS, MO, OK |
-| 2025-07-04 | IRA — Clean Energy Tax Credits (OBBBA) | N/A | Rescinded | All States |
-| 2025-10-07 | DOE — Hydrogen Hub Terminations (All 7 Hubs) | $7B | Canceled | 17 states incl. TX, LA |
-
-**State Posture Classifications (26 states):**
+**State Posture Classifications (27 states):**
 
 | Posture | Count | States |
 |---------|-------|--------|
 | Accommodate | 4 | AR, MS, NH, TX |
-| Push back | 18 | AL, AZ, CT, DE, GA, ID, IL, MA, MD, NY, OH, OK, OR, SD, VA, VT, WA, WI |
+| Push back | 19 | AL, AZ, CA, CT, DE, GA, ID, IL, MA, MD, NY, OH, OK, OR, SD, VA, VT, WA, WI |
 | Neutral/Mixed | 4 | CO, MN, NJ, NM |
 
-### 10.2 Statistical Results — All Targeting Events
+### 10.2 Statistical Results — All Targeting Events (v1.4, Recalculated N=42)
 
-**Status: ✅ ANALYZED (v1.2 results from `Archive/Correlations_v1.2/Statistical_Analysis_Results.md` — pending recalculation with N=42)**
+**Status: ✅ RECALCULATED (v1.4 — full results in `Correlations/Statistical_Analysis_Results.md`)**
 
-| Posture | n | Total Events | Mean Hits/State | Std Dev |
-|---------|---|--------------|-----------------|---------|
-| Accommodate | 4 | 6 | 1.50 | 1.12 |
-| Push back | 18 | 40 | 2.22 | 2.12 |
-| Neutral/Mixed | 4 | 15 | 3.75 | 1.48 |
+| Posture | n (states) | Mean Events/State | Std Dev | Median |
+|---------|------------|-------------------|---------|--------|
+| Accommodate | 4 | 23.25 | 0.96 | 23.5 |
+| Push back | 19 | 24.11 | 2.79 | 23.0 |
+| Neutral/Mixed | 4 | 25.25 | 1.26 | 25.0 |
 
 | Test | Statistic | p-value | Significant? |
 |------|-----------|---------|--------------|
-| t-test (Push back vs Accommodate) | t = 0.630 | 0.5360 | NO |
-| Mann-Whitney U | U = 39.5 | 0.7923 | NO |
-| One-way ANOVA (all 3 groups) | F = 1.336 | 0.2824 | NO |
-| Chi-square (any targeting) | χ² = 1.034 | 0.5963 | NO |
-| Point-biserial r | r = 0.139 | 0.5360 | NO |
+| t-test (Push back vs Accommodate) | t = 1.071 | 0.3010 | **NO** |
+| Mann-Whitney U (Push back vs Accommodate) | U = 36.5 | 0.9336 | **NO** |
+| One-way ANOVA (all 3 groups) | F = 0.661 | 0.5253 | **NO** |
+| Kruskal-Wallis (all 3 groups) | H = 2.564 | 0.2774 | **NO** |
+| Chi-square (any targeting) | χ² = 0.909 | 0.6346 | **NO** |
+| Point-biserial r (Push back vs Accommodate) | r = 0.129 | 0.5571 | **NO** |
 
-**Conclusion:** No statistically significant relationship between posture and overall federal targeting.
+**Effect Sizes:** Eta-squared = 0.052 (total events), 0.058 (energy events) — both small effects, meaning data center posture explains less than 6% of the variance in federal targeting.
 
-### 10.3 Energy/Climate-Specific Targeting
+**Conclusion:** No statistically significant relationship between data center policy posture and federal funding targeting. All six statistical tests are non-significant (all p > 0.27). The small differences in mean event counts across groups are within normal variation and not distinguishable from chance.
 
-When filtering to energy-specific withholding events (DOE grants, EPA climate programs, clean energy terminations), a notable pattern emerges:
+### 10.3 Energy/Climate-Specific Targeting (v1.4 Correction)
 
-| Posture | Energy Targeted | Not Targeted | Total | % Targeted |
-|---------|-----------------|--------------|-------|------------|
-| Accommodate | 1 (NH only) | 3 | 4 | 25.0% |
-| Push back | 9 | 9 | 18 | 50.0% |
-| Neutral/Mixed | 4 | 0 | 4 | **100.0%** |
+**v1.2 Finding (CORRECTED):** The v1.2 analysis (N=30) reported that 100% of Neutral/Mixed states were hit by energy-specific withholding vs. 50% of Push back and 25% of Accommodate states. **This finding no longer holds with the expanded N=42 dataset.**
 
-The chi-square test for energy-specific targeting approaches significance (χ² = 4.875, p = 0.087), and the 100% targeting rate of Neutral/Mixed states is directionally striking. These are the four states (CO, MN, NJ, NM) with competing legislation — incentives and restrictions filed simultaneously — suggesting federal pressure targets states whose policy direction is still in play.
+With N=42, **100% of all posture groups** are affected by energy-related federal actions:
 
-**The NH Exception:** New Hampshire is the only Accommodate state hit by energy withholding (DOE terminated Brayton Energy $5M grant, $43M Solar for All at risk). HB 672's off-grid electricity provider law creates a model that decouples from federal grid infrastructure entirely, which may have drawn attention precisely because it offers an alternative path that doesn't require federal funding.
+| Posture | States Hit | Total | % Targeted | Mean Energy Events |
+|---------|------------|-------|------------|-------------------|
+| Accommodate | 4 | 4 | **100%** | 9.75 |
+| Push back | 19 | 19 | **100%** | 10.05 |
+| Neutral/Mixed | 4 | 4 | **100%** | 10.50 |
 
-### 10.4 Temporal Lag Analysis
+| Test | Statistic | p-value | Significant? |
+|------|-----------|---------|--------------|
+| ANOVA (energy events by posture) | F = 0.741 | 0.4873 | **NO** |
+| Kruskal-Wallis (energy events) | H = 1.689 | 0.4299 | **NO** |
 
-**Status: ✅ ANALYZED (v1.2 results from `Archive/Correlations_v1.2/temporal_summary.md`, engine: `Correlations/temporal_engine.py` — pending recalculation with N=42)**
+**Why the v1.2 finding was misleading:** The original N=30 dataset counted only events that specifically named a state. Many blanket actions (e.g., DOE Loan Programs Office freeze, DOT formula funding delay, IRA tax credit phase-out) were added in v1.3, and these affect all states equally. When the full event set is analyzed, energy-related federal actions impact every classified state regardless of posture.
 
-The temporal analysis measures the lag between state data center legislation (trigger dates) and federal funding actions (action dates) across 346 state–federal-action pairs to determine whether federal targeting is proactive (negative lag = federal acted before state legislation) or reactive (positive lag = federal acted after state legislation).
+### 10.4 Temporal Lag Analysis (v1.4 — Recalculated with Methodological Correction)
 
-| Posture | n (pairs) | Median Lag (days) | Mean Lag (days) | % Proactive |
-|---------|-----------|-------------------|-----------------|-------------|
-| Accommodate | 33 | −19 | −8.8 | 57.6% |
-| Push back | 238 | −74 | −70.0 | 53.4% |
-| Neutral/Mixed | 75 | +92 | +101.1 | 13.3% |
+**Status: ✅ RECALCULATED AND CORRECTED (v1.4)**
 
-**Key Findings:**
+The temporal analysis measures the lag between state data center legislation (trigger dates) and federal funding actions across 474 state–federal-action pairs. A negative lag means the federal government acted before the state legislated; a positive lag means federal action came after.
 
-1. **Neutral/Mixed states** show a positive median lag (+92 days), meaning federal funding actions overwhelmingly came *after* state legislation — consistent with reactive retaliation against states whose policy direction disappoints
-2. **Push back states** show a negative median lag (−74 days), meaning federal pressure often preceded state legislation — consistent with preemptive coercion, though the split is roughly even (53.4% proactive)
-3. **Accommodate states** show a slight negative median lag (−19 days), with nearly balanced proactive/reactive distribution (57.6% proactive)
-4. Only **13.3%** of federal actions on Neutral/Mixed states were proactive, compared to **53.4%** for Push back states — a 4x difference in preemptive pressure
+**Raw Results (N=42):**
 
-### 10.5 Causal Verification
+| Posture | n (pairs) | Median Lag (days) | % Proactive |
+|---------|-----------|-------------------|-------------|
+| Accommodate | 47 | −18 | 53.2% |
+| Push back | 326 | −74 | 53.7% |
+| Neutral/Mixed | 101 | +92 | 12.9% |
 
-**Status: ✅ ANALYZED (v1.2 results from `Archive/Correlations_v1.2/Independent_Verification.md`, code: `Correlations/Independent_Verification.py` — pending recalculation with N=42)**
+**⚠️ Critical Methodological Finding:** The apparent difference in lag times between posture groups is **driven by when states introduced their data center legislation**, not by differential federal behavior. This was identified in the v1.4 analysis and confirmed through three independent checks:
 
-An independent causal model using the DoWhy framework was run on the complete temporal dataset to estimate the effect of a "Neutral/Mixed" posture on federal action lag times.
+1. **Trigger date confound:** All 4 Neutral/Mixed states (CO, MN, NJ, NM) have early legislation dates (Jan–Jun 2025). Many Push back states have late dates (Jan–Feb 2026). Since most federal actions occurred throughout 2025, Neutral/Mixed states mechanically show positive lags (federal actions came after their early legislation) while late-legislating Push back states show negative lags (federal actions came before their 2026 legislation).
 
-| Metric | Result |
-|--------|--------|
-| **Estimated Causal Effect** | +150.98 days |
-| **p-value** | < 0.0001 (statistically significant) |
-| **Random Common Cause Refutation** | 150.77 (estimate stable — robust) |
-| **Placebo Treatment Refutation** | 4.87 (near zero — confirms genuine effect) |
+2. **Controlled comparison:** When comparing only states with the same trigger date (2025-01-01), Push back and Neutral/Mixed states show **identical** median lags of 113 days (Mann-Whitney U, p = 0.768). The posture difference vanishes when the trigger date is held constant.
 
-**Interpretation:** Adopting a Neutral/Mixed posture is estimated to shift the federal action timing by approximately 151 days later relative to state legislation — a statistically significant and robust causal finding that federal actions on undecided states are predominantly reactive rather than preemptive.
+3. **DoWhy causal model with correction:** When trigger_date is added as a confounder alongside the original confounders (federal_action, action_type), the estimated causal effect drops from +148 days (p < 0.0001) to **0.00 days (p = 1.000)**.
 
-### 10.6 Five-Stage Federal Targeting Pattern
+| DoWhy Model | Causal Effect | p-value | Significant? |
+|-------------|--------------|---------|--------------|
+| Original (no trigger date control) | +148.02 days | < 0.0001 | YES |
+| **Corrected (with trigger date control)** | **0.00 days** | **1.000** | **NO** |
 
-Analysis of the 42 documented federal funding events reveals a five-stage escalation pattern, now with additional cross-party evidence from v1.3 data:
+**Conclusion:** The v1.2 temporal lag findings — including the "reactive retaliation" interpretation for Neutral/Mixed states and the +151-day causal effect — were confounded by trigger date differences between posture groups. When properly controlled, there is **no evidence** that federal funding actions respond differently to states based on their data center policy posture.
+
+### 10.5 Five-Stage Federal Action Timeline
+
+Analysis of the 42 documented federal funding events reveals a five-stage chronological pattern. **Note:** This is presented as a descriptive timeline of how federal actions unfolded, not as evidence of targeting based on data center posture.
 
 | Stage | Timing | Action | Who's Hit | Evidence |
 |-------|--------|--------|-----------|----------|
@@ -476,17 +467,38 @@ Analysis of the 42 documented federal funding events reveals a five-stage escala
 | 4. Targeted Terminations | Aug–Oct 2025 | NIH grants, DOE clean energy, MSI grants | CA (NIH), 16 blue states (DOE), 167+ CA institutions (MSI) | DOE.gov, Ed.gov, EdSource |
 | 5. Selective Release | Feb 2026 | FEMA disaster aid released to some, not others | CA, IL, MN, CO, VI excluded while NY, NC get aid | The Hill, CNN |
 
-**Critical cross-party finding (strengthened in v1.3):** Even politically aligned states suffered significant withholding during Stages 1–4. Texas ($700M education), Arkansas ($64M education + tornado disaster declaration denied), Oklahoma ($70M education + $6.3B in Medicaid hospital cuts + hazard mitigation denied), New Hampshire ($27M education + $5M DOE grant terminated) — all were hit. FEMA denied disaster declarations for AR (Accommodate state), WV, and WA. DOE hydrogen hub terminations ($7B) affected TX and LA alongside blue states. Iowa, Mississippi, and Missouri also had FEMA hazard mitigation denied despite approved major disaster declarations. The divergence appears at Stage 5 (selective release), where red/swing states tend to be restored more quickly.
+**Cross-party findings:** Politically aligned states suffered significant withholding across all stages. Texas ($700M education), Arkansas ($64M education + tornado disaster declaration denied), Oklahoma ($70M education + $6.3B in Medicaid hospital cuts + hazard mitigation denied), New Hampshire ($27M education + $5M DOE grant terminated) — all were hit. FEMA denied disaster declarations for AR (Accommodate state), WV, and WA. DOE hydrogen hub terminations ($7B) affected TX and LA alongside blue states. The selective release at Stage 5 is the primary point where political alignment appears to influence outcomes — but this correlates with immigration/sanctuary policy, not data center posture.
+
+### 10.6 What the Data Actually Shows
+
+Based on the complete v1.4 analysis, the federal funding withholding data supports the following conclusions:
+
+**Supported by data:**
+1. Federal funding actions during this period affected all states broadly, regardless of data center policy posture
+2. 52% of documented events are blanket "All States" actions — this is the dominant pattern
+3. The 5 most-targeted states (CA=30, IL=29, OR=28, CO/MA/WA=27, NY=26 events) are primarily targeted for immigration/sanctuary and DEI policy positions, not data center posture
+4. Both politically aligned and opposing states experience comparable rates of federal withholding
+5. There is no statistically significant relationship between data center posture and federal targeting (all tests p > 0.27)
+
+**Not supported by data:**
+1. ~~"Pressure on the undecided"~~ — Not significant; the small differences are within normal variation
+2. ~~"100% energy targeting of Neutral/Mixed vs 25-50% of others"~~ — Artifact of smaller dataset; all groups are 100% hit
+3. ~~"Reactive retaliation" temporal pattern~~ — Driven by legislation timing, not federal behavior
+4. ~~"+151-day causal effect"~~ — Confounded by trigger dates; corrected estimate is zero
+
+**Open questions:**
+1. The correlation between immigration/sanctuary policy and federal targeting warrants further study as a separate analysis
+2. Small group sizes (n=4 for Accommodate and Neutral/Mixed) limit statistical power — effects too small to detect cannot be ruled out
+3. Whether the Stage 5 selective release pattern is related to political alignment vs. administrative factors remains unclear
 
 ### 10.7 Limitations
 
-1. **Small sample size** — Only 4 Accommodate states limits statistical power for posture-level comparisons (expanded dataset N=42 improves event-level power but state-group sizes remain constrained)
-2. **Confounding variables** — Political alignment correlates with both data center posture AND immigration/DEI policy positions
-3. **Blanket freezes** — Many events hit "All States," diluting the signal in targeted analysis (v1.3 adds several "All States" blanket events)
-4. **Effect size** — With current sample sizes, approximately 30 states per group would be needed for p < 0.05 significance on overall targeting
-5. **Neutral/Mixed signal** — The 100% energy-specific targeting rate for Neutral/Mixed states is directionally striking but based on only 4 states; this warrants monitoring as more data accumulates
-6. **v1.2 statistics pending recalculation** — All statistical tests (ANOVA, chi-square, temporal lag, DoWhy causal model) were calculated on N=30; recalculation with N=42 is needed to confirm or revise findings
-7. **New cross-party evidence** — v1.3 data (FEMA AR denial, DOE hydrogen hub TX/LA terminations, FEMA hazard mitigation IA/MS/MO/OK denials) may weaken the partisan targeting hypothesis and strengthen a broader federal austerity interpretation
+1. **Small group sizes** — Only 4 Accommodate and 4 Neutral/Mixed states limits statistical power; approximately 20+ states per group would be needed for reliable medium-effect detection at α=0.05
+2. **Confounding variables** — Political alignment correlates with both data center posture AND immigration/DEI policy; isolating the effect of posture alone is difficult
+3. **Blanket dominance** — 52% of events hit all states, creating high and uniform event counts that dilute any targeted signal
+4. **Trigger date imprecision** — Many state legislation dates are approximate (e.g., "Introduced 2025" parsed as Jan 1), which limits the precision of temporal lag calculations
+5. **Selection bias in states classified** — Only 27 of 50 states are classified by posture; the remaining 23 states may have different patterns
+6. **Effect sizes are small** — Eta-squared values of 0.05–0.06 indicate that data center posture explains very little of the observed variation in federal targeting
 
 ---
 
@@ -618,17 +630,17 @@ Analysis of the 42 documented federal funding events reveals a five-stage escala
 - North American Electric Reliability Corporation (NERC): Long-Term Reliability Assessment (2025)
 
 ### Correlation Analysis
-- Statistical methodology: Python (pandas, scipy.stats) — `Correlations/Statistical_Analysis_Results.md`
+- Statistical methodology: Python (pandas 3.0, scipy 1.15, DoWhy 0.14) — `Correlations/Statistical_Analysis_Results.md`
 - Temporal lag engine: `Correlations/temporal_engine.py` — `Correlations/temporal_summary.md`
-- Causal inference: DoWhy framework — `Correlations/Independent_Verification.py` — `Correlations/Independent_Verification.md`
-- Federal funding data: `Correlations/Federal_Funding_Withholding_2025-2026.csv` (30 events, 2025–2026)
-- State posture data: `02_CSVs_and_Datasets/Copilot_Agent/state_posture_lookup.csv` (27 states)
-- Federal impact by state: `02_CSVs_and_Datasets/Copilot_Agent/Federal_Withholding_State_Correlation_Analysis.md`
+- Causal inference: DoWhy framework — `Correlations/Independent_Verification.py` — `Correlations/causal_summary.md`
+- Federal funding data: `Correlations/Federal_Funding_Withholding_2025-2026.csv` (42 events, 2025–2026)
+- State posture data: `02_CSVs_and_Datasets/Copilot_Agent/state_posture_lookup.csv` (26 states) + `ANALYSIS/state_posture_lookup.csv` (CA)
+- Federal impact by state: `ANALYSIS/state_federal_impact_summary.csv`
 
 ---
 
-*This report was compiled using multi-source verification. All claims are cross-referenced against primary sources where available. Where verification is partial, the claim is explicitly marked. This analysis does not make causal claims beyond what the evidence supports — structural observations are identified as such. Statistical analysis (Sections 10–11) uses standard frequentist methods with noted limitations.*
+*This report was compiled using multi-source verification. All claims are cross-referenced against primary sources where available. Where verification is partial, the claim is explicitly marked. This analysis does not make causal claims beyond what the evidence supports — structural observations are identified as such. Statistical analysis (Sections 10–11) uses standard frequentist methods with documented limitations. v1.4 corrects methodological issues in v1.2 temporal lag and causal analyses identified through trigger-date confound analysis.*
 
 *For the geopolitical context behind these state-level dynamics, see [The Regulated Friction Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project).*
 
-*v1.2 — March 2026*
+*v1.4 — March 2026*

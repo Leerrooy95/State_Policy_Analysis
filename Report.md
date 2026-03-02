@@ -634,7 +634,7 @@ Based on the complete v1.4 analysis, the federal funding withholding data suppor
 - Temporal lag engine: `Correlations/temporal_engine.py` — `Correlations/temporal_summary.md`
 - Causal inference: DoWhy framework — `Correlations/Independent_Verification.py` — `Correlations/causal_summary.md`
 - Federal funding data: `Correlations/Federal_Funding_Withholding_2025-2026.csv` (42 events, 2025–2026)
-- State posture data: `02_CSVs_and_Datasets/Copilot_Agent/state_posture_lookup.csv` (26 states) + `ANALYSIS/state_posture_lookup.csv` (CA)
+- State posture data: `02_CSVs_and_Datasets/Copilot_Agent/state_posture_lookup.csv` (27 states) + `ANALYSIS/state_posture_lookup.csv` (6 target states)
 - Federal impact by state: `ANALYSIS/state_federal_impact_summary.csv`
 
 ---

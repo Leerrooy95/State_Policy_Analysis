@@ -25,7 +25,7 @@ Structured data files organized by state. All data is sourced from official gove
     ├── state_energy_and_policy_comparison.csv  — Side-by-side comparison of 13 states
     ├── data_center_legislation_tracker.csv     — All tracked legislation across states
     ├── capital_flows_data_center_energy.csv    — Major capital investments
-    └── Federal_Funding_Withholding_2025-2026.csv — Federal grant/infrastructure funding actions (Jan 2025–Mar 2026)
+    └── Federal_Funding_Withholding_2025-2026.csv — Federal grant/infrastructure funding actions (Jan 2025–Feb 2026) — 42 documented events
 ```
 
 ### Data Sources

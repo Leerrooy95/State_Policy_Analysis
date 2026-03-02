@@ -110,15 +110,14 @@ def validate_state_names():
     with open(fp) as f:
         datasets['energy_comparison'] = [r['state'] for r in csv.DictReader(f)]
 
-    # profiled_state_federal_impact_summary.csv
-    fp = os.path.join(
-        REPO_ROOT, "Copilot_Agent", "profiled_state_federal_impact_summary.csv"
-    )
+    # state_federal_impact_summary.csv (ANALYSIS folder)
+    analysis_root = os.path.join(os.path.dirname(REPO_ROOT), "ANALYSIS")
+    fp = os.path.join(analysis_root, "state_federal_impact_summary.csv")
     with open(fp) as f:
         datasets['impact_summary'] = [r['state'] for r in csv.DictReader(f)]
 
-    # state_posture_lookup.csv
-    fp = os.path.join(REPO_ROOT, "Copilot_Agent", "state_posture_lookup.csv")
+    # state_posture_lookup.csv (ANALYSIS folder)
+    fp = os.path.join(analysis_root, "state_posture_lookup.csv")
     with open(fp) as f:
         datasets['posture_lookup'] = [r['state'] for r in csv.DictReader(f)]
 
@@ -204,8 +203,9 @@ def validate_dates():
 def validate_posture_labels():
     print("\n=== 5. POSTURE LABEL CONSISTENCY ===")
 
-    # Load canonical postures from lookup table
-    fp = os.path.join(REPO_ROOT, "Copilot_Agent", "state_posture_lookup.csv")
+    # Load canonical postures from lookup table (ANALYSIS folder)
+    analysis_root = os.path.join(os.path.dirname(REPO_ROOT), "ANALYSIS")
+    fp = os.path.join(analysis_root, "state_posture_lookup.csv")
     canonical = {}
     with open(fp) as f:
         for row in csv.DictReader(f):
@@ -229,10 +229,8 @@ def validate_posture_labels():
                 )
     ok("Energy comparison postures consistent with lookup table")
 
-    # Verify impact summary postures resolve to canonical base
-    fp = os.path.join(
-        REPO_ROOT, "Copilot_Agent", "profiled_state_federal_impact_summary.csv"
-    )
+    # Verify impact summary postures resolve to canonical base (ANALYSIS folder)
+    fp = os.path.join(analysis_root, "state_federal_impact_summary.csv")
     with open(fp) as f:
         for row in csv.DictReader(f):
             raw = row['data_center_posture']

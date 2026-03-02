@@ -1,7 +1,7 @@
-# State Policy Analysis — Full Findings Report (v1.2)
+# State Policy Analysis — Full Findings Report (v1.3)
 
 **Date:** March 2026
-**Version:** 1.2
+**Version:** 1.3
 **Scope:** State-level policy responses to data center and energy infrastructure expansion across the United States, with federal funding withholding correlation analysis
 **Methodology:** Multi-source web research, legislative text analysis, EIA energy data, statistical correlation (scipy.stats), temporal lag analysis, and causal inference (DoWhy)
 
@@ -38,6 +38,8 @@ By February 2026, **more than 300 state data center bills** had been filed acros
 At the federal level, the DATA Act of 2026 (Sen. Tom Cotton) and ALEC model legislation are creating a framework for "Consumer-Regulated Electric Utilities" (CREUs) — physically islanded power systems exempt from federal regulation — that could fundamentally restructure how large energy consumers interact with the grid.
 
 **New in v1.2 — Correlation Analysis:** Statistical analysis of 30 federal funding withholding events (Jan 2025 – Feb 2026) against 26 state data center policy postures reveals no significant overall correlation, but a striking pattern in energy-specific targeting: 100% of Neutral/Mixed states were hit, suggesting a "pressure on the undecided" dynamic. Temporal lag analysis across 346 state–federal-action pairs shows that federal actions on Neutral/Mixed states overwhelmingly follow state legislation (median lag +92 days, only 13.3% proactive), consistent with reactive retaliation. Causal inference modeling (DoWhy) confirms this effect is statistically significant (p < 0.0001) and robust to refutation tests.
+
+**New in v1.3 — Expanded Dataset:** Federal funding withholding dataset expanded from N=30 to N=42 events (40% increase), adding 12 new verified events across DOE (Loan Programs Office freeze $41.2B, hydrogen hub terminations $7B, LPO conditional cancellations $8.45B), EPA (Environmental Finance Center grants canceled), FEMA (disaster declaration denials for AR, WV, WA; hazard mitigation denials for IA, MS, MO, OK), DOT (formula funding delay $38.5B), and legislative action (IRA clean energy tax credit phase-out via OBBBA). Key new finding: FEMA disaster denial for AR (an Accommodate state) and DOE hydrogen hub terminations affecting TX/LA (red states) demonstrate that federal funding actions are not purely partisan — cross-party impacts strengthen the need for recalculation of v1.2 statistical tests against the expanded dataset. Legacy v1.2 analysis outputs archived to `Archive/`.
 
 ---
 
@@ -367,7 +369,24 @@ The fundamental question across all 50 states: **Who pays for the infrastructure
 
 ### 10.1 Dataset Overview
 
-The correlation analysis examines 30 documented federal funding withholding events (January 2025 – February 2026) tracked in `Correlations/Federal_Funding_Withholding_2025-2026.csv` against state data center policy postures classified across 26 states.
+The correlation analysis examines **42 documented federal funding withholding events** (January 2025 – February 2026) tracked in `Correlations/Federal_Funding_Withholding_2025-2026.csv` against state data center policy postures classified across 26 states. The v1.3 dataset represents a 40% expansion from the original v1.2 dataset (N=30), adding 12 new verified events covering DOE, EPA, FEMA, DOT, and legislative actions.
+
+**v1.3 New Events Added:**
+
+| Date | Program | Dollar Amount | Action Type | Key States |
+|------|---------|---------------|-------------|------------|
+| 2025-01-20 | DOE — Loan Programs Office (Clean Energy Loans) | $41.2B | Frozen | All States |
+| 2025-03-27 | EPA — Environmental Finance Center Program | $3.2M | Canceled | MA, NC, FL, VA, AK |
+| 2025-04-01 | DOT — FY2025 Highway/Transit Formula Funding | $38.5B | Delayed | All States |
+| 2025-04-11 | FEMA — AR Tornado Disaster Declaration | $8.8M | Denied | AR |
+| 2025-04-25 | FEMA — WV Flood Aid | N/A | Denied | WV |
+| 2025-04-25 | FEMA — WA Windstorm Aid | N/A | Denied | WA |
+| 2025-05-19 | DOE — LPO Conditional Loans (7 Projects) | $8.45B | Canceled | All States |
+| 2025-06-02 | EPA — Clean Water/Drinking Water SRF | $2.46B | Threatened | All States |
+| 2025-06-02 | EPA — 16 Categorical Grant Programs | $1.1B | Threatened | All States |
+| 2025-06-11 | FEMA — Hazard Mitigation Grants | N/A | Denied | IA, MS, MO, OK |
+| 2025-07-04 | IRA — Clean Energy Tax Credits (OBBBA) | N/A | Rescinded | All States |
+| 2025-10-07 | DOE — Hydrogen Hub Terminations (All 7 Hubs) | $7B | Canceled | 17 states incl. TX, LA |
 
 **State Posture Classifications (26 states):**
 
@@ -379,7 +398,7 @@ The correlation analysis examines 30 documented federal funding withholding even
 
 ### 10.2 Statistical Results — All Targeting Events
 
-**Status: ✅ ANALYZED (Full methodology in `Correlations/Statistical_Analysis_Results.md`)**
+**Status: ✅ ANALYZED (v1.2 results from `Archive/Correlations_v1.2/Statistical_Analysis_Results.md` — pending recalculation with N=42)**
 
 | Posture | n | Total Events | Mean Hits/State | Std Dev |
 |---------|---|--------------|-----------------|---------|
@@ -413,7 +432,7 @@ The chi-square test for energy-specific targeting approaches significance (χ² 
 
 ### 10.4 Temporal Lag Analysis
 
-**Status: ✅ ANALYZED (Full methodology in `Correlations/temporal_summary.md`, engine: `Correlations/temporal_engine.py`)**
+**Status: ✅ ANALYZED (v1.2 results from `Archive/Correlations_v1.2/temporal_summary.md`, engine: `Correlations/temporal_engine.py` — pending recalculation with N=42)**
 
 The temporal analysis measures the lag between state data center legislation (trigger dates) and federal funding actions (action dates) across 346 state–federal-action pairs to determine whether federal targeting is proactive (negative lag = federal acted before state legislation) or reactive (positive lag = federal acted after state legislation).
 
@@ -432,7 +451,7 @@ The temporal analysis measures the lag between state data center legislation (tr
 
 ### 10.5 Causal Verification
 
-**Status: ✅ ANALYZED (Full methodology in `Correlations/Independent_Verification.md`, code: `Correlations/Independent_Verification.py`)**
+**Status: ✅ ANALYZED (v1.2 results from `Archive/Correlations_v1.2/Independent_Verification.md`, code: `Correlations/Independent_Verification.py` — pending recalculation with N=42)**
 
 An independent causal model using the DoWhy framework was run on the complete temporal dataset to estimate the effect of a "Neutral/Mixed" posture on federal action lag times.
 
@@ -447,7 +466,7 @@ An independent causal model using the DoWhy framework was run on the complete te
 
 ### 10.6 Five-Stage Federal Targeting Pattern
 
-Analysis of the 30 documented federal funding events reveals a five-stage escalation pattern, not a single blanket action:
+Analysis of the 42 documented federal funding events reveals a five-stage escalation pattern, now with additional cross-party evidence from v1.3 data:
 
 | Stage | Timing | Action | Who's Hit | Evidence |
 |-------|--------|--------|-----------|----------|
@@ -457,15 +476,17 @@ Analysis of the 30 documented federal funding events reveals a five-stage escala
 | 4. Targeted Terminations | Aug–Oct 2025 | NIH grants, DOE clean energy, MSI grants | CA (NIH), 16 blue states (DOE), 167+ CA institutions (MSI) | DOE.gov, Ed.gov, EdSource |
 | 5. Selective Release | Feb 2026 | FEMA disaster aid released to some, not others | CA, IL, MN, CO, VI excluded while NY, NC get aid | The Hill, CNN |
 
-**Critical cross-party finding:** Even politically aligned states suffered significant withholding during Stages 1–4. Texas ($700M education), Arkansas ($64M education), Oklahoma ($70M education + $6.3B in Medicaid hospital cuts), New Hampshire ($27M education + $5M DOE grant terminated) — all were hit. The divergence appears at Stage 5 (selective release), where red/swing states tend to be restored more quickly.
+**Critical cross-party finding (strengthened in v1.3):** Even politically aligned states suffered significant withholding during Stages 1–4. Texas ($700M education), Arkansas ($64M education + tornado disaster declaration denied), Oklahoma ($70M education + $6.3B in Medicaid hospital cuts + hazard mitigation denied), New Hampshire ($27M education + $5M DOE grant terminated) — all were hit. FEMA denied disaster declarations for AR (Accommodate state), WV, and WA. DOE hydrogen hub terminations ($7B) affected TX and LA alongside blue states. Iowa, Mississippi, and Missouri also had FEMA hazard mitigation denied despite approved major disaster declarations. The divergence appears at Stage 5 (selective release), where red/swing states tend to be restored more quickly.
 
 ### 10.7 Limitations
 
-1. **Small sample size** — Only 4 Accommodate states limits statistical power for posture-level comparisons
+1. **Small sample size** — Only 4 Accommodate states limits statistical power for posture-level comparisons (expanded dataset N=42 improves event-level power but state-group sizes remain constrained)
 2. **Confounding variables** — Political alignment correlates with both data center posture AND immigration/DEI policy positions
-3. **Blanket freezes** — Many events hit "All States," diluting the signal in targeted analysis
+3. **Blanket freezes** — Many events hit "All States," diluting the signal in targeted analysis (v1.3 adds several "All States" blanket events)
 4. **Effect size** — With current sample sizes, approximately 30 states per group would be needed for p < 0.05 significance on overall targeting
 5. **Neutral/Mixed signal** — The 100% energy-specific targeting rate for Neutral/Mixed states is directionally striking but based on only 4 states; this warrants monitoring as more data accumulates
+6. **v1.2 statistics pending recalculation** — All statistical tests (ANOVA, chi-square, temporal lag, DoWhy causal model) were calculated on N=30; recalculation with N=42 is needed to confirm or revise findings
+7. **New cross-party evidence** — v1.3 data (FEMA AR denial, DOE hydrogen hub TX/LA terminations, FEMA hazard mitigation IA/MS/MO/OK denials) may weaken the partisan targeting hypothesis and strengthen a broader federal austerity interpretation
 
 ---
 
@@ -479,6 +500,7 @@ Analysis of the 30 documented federal funding events reveals a five-stage escala
 | Medicaid | Budget reconciliation ($900B–$1T cut) | 27–34% projected enrollment decline; 18,000 lost coverage in 2018 pilot |
 | IIJA/IRA | Blanket $125B freeze (Jan 2025) | Infrastructure projects paused; BEAD broadband delayed |
 | FEMA BRIC | $4.5B hazard mitigation canceled | AR mitigation projects in pipeline halted |
+| **FEMA Tornado (v1.3)** | **Disaster declaration denied Apr 2025** | **$8.8M damage estimate; Gov. Sanders appealed; 63 of 75 counties affected; 3 deaths; no federal funds obligated** |
 | **Data Center Nexus** | AVAIO Leo $6B campus needs grid upgrades | Act 373 enables PSC bypass — but if IIJA grid funding stays frozen, 1GW campus grid upgrades may be delayed |
 
 ### 11.2 Texas — Accommodate State, CRITICAL Federal Dependency (ERCOT Isolation)
@@ -489,6 +511,7 @@ Analysis of the 30 documented federal funding events reveals a five-stage escala
 | FEMA | Disaster Relief Fund $11B delayed | Gulf Coast flooding recovery delayed; hazard mitigation halted |
 | IIJA/IRA | Blanket $125B freeze + NEVI $5B frozen | TX DOT paused projects; EV charging infrastructure delayed |
 | CHIPS | CHIPS Act renegotiations ($50B total) | Samsung Austin fab and TI Dallas timelines extended |
+| **DOE Hydrogen Hub (v1.3)** | **HyVelocity Hub terminated ($7B total)** | **TX/LA Gulf Coast hydrogen hub canceled; bipartisan alarm; clean hydrogen competitiveness at risk** |
 | **Data Center Nexus** | 40–50 GW projected demand growth | ERCOT grid isolation means TX cannot rely on interstate backup if federal grid funding stays frozen |
 
 ### 11.3 Oklahoma — Push Back State, HIGH Federal Vulnerability (Medicaid)
@@ -498,6 +521,7 @@ Analysis of the 30 documented federal funding events reveals a five-stage escala
 | Education | K-12 funding withheld ($6.9B national) | $70M+ withheld from OK schools |
 | Medicaid | Budget reconciliation ($900B–$1T cut) | $6.3–6.7B in hospital cuts over 10 years; 171,000 projected to lose coverage; 53% of rural hospitals at risk |
 | FEMA BRIC | $4.5B hazard mitigation canceled | Stillwater stormwater drainage and water infrastructure projects halted |
+| **FEMA Hazard Mitigation (v1.3)** | **Hazard mitigation grants denied (Jun 2025)** | **OK wildfire recovery hampered; tornado safe rooms and warning sirens unfunded despite approved major disaster declaration** |
 | **Data Center Nexus** | Federal grid/clean energy funding frozen | SB 1488 moratorium + HB 2992 ratepayer protection — push back posture may be reinforced by federal uncertainty |
 
 ### 11.4 Virginia — Push Back State, HIGH Federal Dependency (Data Center Capital)

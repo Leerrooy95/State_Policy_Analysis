@@ -1,4 +1,4 @@
-# State Policy Analysis
+# State Policy Analysis v1.0
 
 **A data-driven examination of how U.S. states are responding to the data center and energy infrastructure boom — from regulatory accommodation to outright moratoriums.**
 

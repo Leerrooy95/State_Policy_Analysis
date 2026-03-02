@@ -95,6 +95,8 @@ The majority of federal funding actions are blanket actions that affect all stat
 
 ## 8. Temporal Lag Analysis — Updated with Methodological Correction
 
+**Coverage audit (v1.4.1):** 39 of 41 unique federal actions are represented in the temporal analysis across 26 states (630 state–action pairs). Two actions remain out of scope: FEMA — West Virginia Flood Aid (WV-only) and HHS — PREP Sex Education Grants Gender Identity Ultimatum (DC-only) — neither jurisdiction has data center legislation or posture classification. Mississippi (MS) is classified as Accommodate but has no data center legislation (only a project), so it is excluded from the temporal analysis while remaining in the per-state event count analysis.
+
 ### Raw Results (N=42)
 
 | Posture | n (pairs) | Median Lag (days) | % Proactive |

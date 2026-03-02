@@ -1,7 +1,7 @@
 # Temporal Correlation Analysis — Summary Report
 
-**Generated:** 2026-03-02 18:10
-**Total records:** 474 state–federal-action pairs
+**Generated:** 2026-03-02 18:49
+**Total records:** 630 state–federal-action pairs
 
 ---
 
@@ -9,8 +9,8 @@
 
 | Posture | n (pairs) | Median Lag (days) | Mean Lag (days) | Min | Max |
 |---------|-----------|-------------------|-----------------|-----|-----|
-| Accommodate | 47 | -18 | -3.7 | -151 | 213 |
-| Push back | 326 | -74 | -68.4 | -377 | 421 |
+| Accommodate | 71 | -32 | -29.1 | -193 | 213 |
+| Push back | 458 | -185 | -119.5 | -377 | 421 |
 | Neutral/Mixed | 101 | 92 | 99.2 | -132 | 421 |
 
 ---
@@ -21,8 +21,8 @@ A **negative lag** means the federal government acted *before* the state introdu
 
 | Posture | Proactive (lag < 0) | Reactive (lag > 0) | Same-day (lag = 0) | % Proactive |
 |---------|---------------------|--------------------|--------------------|-------------|
-| Accommodate | 25 | 22 | 0 | 53.2% |
-| Push back | 175 | 151 | 0 | 53.7% |
+| Accommodate | 44 | 27 | 0 | 62.0% |
+| Push back | 307 | 151 | 0 | 67.0% |
 | Neutral/Mixed | 13 | 87 | 1 | 12.9% |
 
 ---
@@ -32,22 +32,29 @@ A **negative lag** means the federal government acted *before* the state introdu
 | State | Code | Posture | Pairs | Median Lag | Proactive | Reactive |
 |-------|------|---------|-------|------------|-----------|----------|
 | Arkansas | AR | Accommodate | 23 | 22 | 8 | 15 |
+| New Hampshire | NH | Accommodate | 24 | -86 | 19 | 5 |
 | Texas | TX | Accommodate | 24 | -67 | 17 | 7 |
 | Colorado | CO | Neutral/Mixed | 27 | 113 | 0 | 27 |
 | Minnesota | MN | Neutral/Mixed | 24 | -26 | 13 | 10 |
 | New Jersey | NJ | Neutral/Mixed | 25 | 138 | 0 | 25 |
 | New Mexico | NM | Neutral/Mixed | 25 | 113 | 0 | 25 |
+| Alabama | AL | Push back | 21 | -272 | 21 | 0 |
+| Arizona | AZ | Push back | 23 | -273 | 23 | 0 |
 | California | CA | Push back | 30 | -140 | 27 | 3 |
 | Connecticut | CT | Push back | 23 | 113 | 0 | 23 |
 | Delaware | DE | Push back | 23 | 113 | 0 | 23 |
+| Georgia | GA | Push back | 21 | -272 | 21 | 0 |
 | Idaho | ID | Push back | 22 | 92 | 0 | 22 |
 | Illinois | IL | Push back | 29 | 138 | 0 | 29 |
 | Massachusetts | MA | Push back | 27 | -272 | 27 | 0 |
+| Maryland | MD | Push back | 22 | -262 | 22 | 0 |
 | New York | NY | Push back | 26 | -293 | 26 | 0 |
 | Ohio | OH | Push back | 23 | 93 | 0 | 23 |
 | Oklahoma | OK | Push back | 23 | -252 | 23 | 0 |
 | Oregon | OR | Push back | 28 | 103 | 0 | 28 |
+| South Dakota | SD | Push back | 22 | -262 | 22 | 0 |
 | Virginia | VA | Push back | 23 | -272 | 23 | 0 |
+| Vermont | VT | Push back | 23 | -272 | 23 | 0 |
 | Washington | WA | Push back | 27 | -251 | 27 | 0 |
 | Wisconsin | WI | Push back | 22 | -293 | 22 | 0 |
 
@@ -55,9 +62,9 @@ A **negative lag** means the federal government acted *before* the state introdu
 
 ## 4. Interpretation
 
-- **Neutral/Mixed states** show a median lag of **92 days**, compared to **-74 days** for Push back states and **-18 days** for Accommodate states.
+- **Neutral/Mixed states** show a median lag of **92 days**, compared to **-185 days** for Push back states and **-32 days** for Accommodate states.
 - The positive median lag for Neutral/Mixed states indicates that federal funding actions followed state legislation on average — consistent with a **reactive retaliation** strategy.
-- **12.9%** of federal actions on Neutral/Mixed states were proactive (negative lag) vs **53.7%** for Push back states.
+- **12.9%** of federal actions on Neutral/Mixed states were proactive (negative lag) vs **67.0%** for Push back states.
 
 ### What the temporal data shows
 

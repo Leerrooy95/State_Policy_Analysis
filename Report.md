@@ -430,14 +430,14 @@ With N=42, **100% of all posture groups** are affected by energy-related federal
 
 **Status: ✅ RECALCULATED AND CORRECTED (v1.4)**
 
-The temporal analysis measures the lag between state data center legislation (trigger dates) and federal funding actions across 474 state–federal-action pairs. A negative lag means the federal government acted before the state legislated; a positive lag means federal action came after.
+The temporal analysis measures the lag between state data center legislation (trigger dates) and federal funding actions across 630 state–federal-action pairs (26 states with legislation entries). A negative lag means the federal government acted before the state legislated; a positive lag means federal action came after.
 
 **Raw Results (N=42):**
 
 | Posture | n (pairs) | Median Lag (days) | % Proactive |
 |---------|-----------|-------------------|-------------|
-| Accommodate | 47 | −18 | 53.2% |
-| Push back | 326 | −74 | 53.7% |
+| Accommodate | 71 | −32 | 62.0% |
+| Push back | 458 | −185 | 67.0% |
 | Neutral/Mixed | 101 | +92 | 12.9% |
 
 **⚠️ Critical Methodological Finding:** The apparent difference in lag times between posture groups is **driven by when states introduced their data center legislation**, not by differential federal behavior. This was identified in the v1.4 analysis and confirmed through three independent checks:
@@ -446,11 +446,11 @@ The temporal analysis measures the lag between state data center legislation (tr
 
 2. **Controlled comparison:** When comparing only states with the same trigger date (2025-01-01), Push back and Neutral/Mixed states show **identical** median lags of 113 days (Mann-Whitney U, p = 0.768). The posture difference vanishes when the trigger date is held constant.
 
-3. **DoWhy causal model with correction:** When trigger_date is added as a confounder alongside the original confounders (federal_action, action_type), the estimated causal effect drops from +148 days (p < 0.0001) to **0.00 days (p = 1.000)**.
+3. **DoWhy causal model with correction:** When trigger_date is added as a confounder alongside the original confounders (federal_action, action_type), the estimated causal effect drops from +194 days (p < 0.0001) to **0.00 days (p = 1.000)**.
 
 | DoWhy Model | Causal Effect | p-value | Significant? |
 |-------------|--------------|---------|--------------|
-| Original (no trigger date control) | +148.02 days | < 0.0001 | YES |
+| Original (no trigger date control) | +194.32 days | < 0.0001 | YES |
 | **Corrected (with trigger date control)** | **0.00 days** | **1.000** | **NO** |
 
 **Conclusion:** The v1.2 temporal lag findings — including the "reactive retaliation" interpretation for Neutral/Mixed states and the +151-day causal effect — were confounded by trigger date differences between posture groups. When properly controlled, there is **no evidence** that federal funding actions respond differently to states based on their data center policy posture.

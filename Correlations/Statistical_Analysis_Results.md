@@ -99,8 +99,8 @@ The majority of federal funding actions are blanket actions that affect all stat
 
 | Posture | n (pairs) | Median Lag (days) | % Proactive |
 |---------|-----------|-------------------|-------------|
-| Accommodate | 47 | −18 | 53.2% |
-| Push back | 326 | −74 | 53.7% |
+| Accommodate | 71 | −32 | 62.0% |
+| Push back | 458 | −185 | 67.0% |
 | Neutral/Mixed | 101 | +92 | 12.9% |
 
 ### Critical Methodological Finding
@@ -113,11 +113,11 @@ The apparent difference in lag times between posture groups is **entirely driven
 
 2. **Controlled comparison:** When comparing only states with the same trigger date (2025-01-01), Push back and Neutral/Mixed states show **identical** median lags of 113 days (Mann-Whitney U p = 0.7677).
 
-3. **DoWhy causal model with trigger date control:** When trigger_date is added as a confounder, the estimated causal effect drops from **+148 days (p < 0.0001)** to **0.00 days (p = 1.000)** — exactly zero effect.
+3. **DoWhy causal model with trigger date control:** When trigger_date is added as a confounder, the estimated causal effect drops from **+194 days (p < 0.0001)** to **0.00 days (p = 1.000)** — exactly zero effect.
 
 | Model | Causal Effect | p-value | Significant? |
 |-------|--------------|---------|--------------|
-| Original (no trigger date control) | +148.02 days | < 0.0001 | YES |
+| Original (no trigger date control) | +194.32 days | < 0.0001 | YES |
 | **Corrected (with trigger date control)** | **0.00 days** | **1.000** | **NO** |
 
 **v1.2/v1.3 Correction:** The previous finding of a +151-day causal effect (p < 0.0001) was a confounded result. The temporal lag difference between posture groups is a methodological artifact, not evidence of differential federal behavior.

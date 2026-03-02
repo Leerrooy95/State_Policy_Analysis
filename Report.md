@@ -580,9 +580,9 @@ Based on the complete v1.4 analysis, the federal funding withholding data suppor
 
 6. **What happens to accommodation states if data center demand doesn't materialize at projected levels?** The "AI bubble" scenario raised by Travis Fisher (Cato) — if facilities are not needed, private investors bear the loss under the CREU model, but ratepayers bear the loss under the traditional utility model (Act 373).
 
-7. **Does the 100% energy-specific targeting rate for Neutral/Mixed states persist as more data accumulates?** The current pattern (CO, MN, NJ, NM all hit) is directionally striking but based on only 4 states. Expanding the Neutral/Mixed classification would increase statistical power.
+7. **What drives the variation in targeted (non-blanket) events?** The 5 most-targeted states (CA, IL, OR, CO, MA/WA) are primarily targeted for immigration/sanctuary and DEI policy positions. A separate analysis of whether sanctuary/immigration policy positions predict federal targeting — independent of data center posture — would clarify the dominant driver.
 
-8. **What is the causal mechanism?** The temporal lag analysis shows federal actions on Neutral/Mixed states are predominantly reactive (median +92 days after state legislation), but the causal pathway — whether this represents deliberate retaliation, bureaucratic sequencing, or coincidence — remains open.
+8. **Can future data distinguish posture effects from political alignment?** With larger sample sizes (more states classified, more events documented), it may become possible to detect small effects that the current dataset lacks power to identify. The current effect sizes (eta-squared ~0.05) are below conventional detection thresholds.
 
 ---
 

@@ -1,0 +1,14 @@
+state,state_code,posture,posture_detail,key_action
+Alabama,AL,Push back,,SB 270 (infrastructure cost conditions)
+Arizona,AZ,Push back,,HB 2756 (grid connection cost protections)
+Arkansas,AR,Accommodate,PSC bypass,"Act 373 (PSC bypass), Act 548 (data center tax incentives)"
+Georgia,GA,Push back,,"SB 476 (eliminate credits), moratorium bill"
+Maryland,MD,Push back,,HB 120 (emergency moratorium)
+Mississippi,MS,Accommodate,,AVAIO $6B campus (Brandon)
+New Hampshire,NH,Accommodate,off-grid,HB 672 (off-grid provider exemption)
+New York,NY,Push back,,A 10141/S9144 (3-year moratorium)
+Oklahoma,OK,Push back,moratorium + ratepayer protection,"HB 2992 (ratepayer protection), SB 1488 (moratorium)"
+South Dakota,SD,Push back,,SB 232 (1-year hyperscale moratorium)
+Texas,TX,Accommodate,preempt moratoriums,"ERCOT model, HB 2559 (preempts local moratoriums)"
+Vermont,VT,Push back,,S.205 (moratorium until July 2030)
+Virginia,VA,Push back,moratorium + tax rollback,"HB 1515 (moratorium), HB 961 (tax incentive rollback)"

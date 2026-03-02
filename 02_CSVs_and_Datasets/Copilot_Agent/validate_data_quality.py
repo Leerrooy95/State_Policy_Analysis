@@ -87,7 +87,7 @@ def validate_amounts():
             val = row['amount_usd'].strip()
             if val == '':
                 null_count += 1
-            elif val.isdigit() or (val.replace('.', '', 1).isdigit()):
+            elif val.isdigit():
                 valid_count += 1
             else:
                 error(f"Row {i}: invalid amount_usd value: {val!r}")

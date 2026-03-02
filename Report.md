@@ -37,7 +37,7 @@ By February 2026, **more than 300 state data center bills** had been filed acros
 
 At the federal level, the DATA Act of 2026 (Sen. Tom Cotton) and ALEC model legislation are creating a framework for "Consumer-Regulated Electric Utilities" (CREUs) — physically islanded power systems exempt from federal regulation — that could fundamentally restructure how large energy consumers interact with the grid.
 
-**New in v1.2 — Correlation Analysis:** Statistical analysis of 30 federal funding withholding events (Jan 2025 – Feb 2026) against 26 state data center policy postures reveals no significant overall correlation, but a striking pattern in energy-specific targeting: 100% of Neutral/Mixed states were hit, suggesting a "pressure on the undecided" dynamic. Temporal lag analysis across 346 state–federal-action pairs shows that federal actions on Neutral/Mixed states overwhelmingly follow state legislation (median lag +92 days, only 13.3% proactive), consistent with reactive retaliation. Causal inference modeling confirms this effect is statistically significant (p < 0.0001) and robust to refutation tests.
+**New in v1.2 — Correlation Analysis:** Statistical analysis of 30 federal funding withholding events (Jan 2025 – Feb 2026) against 26 state data center policy postures reveals no significant overall correlation, but a striking pattern in energy-specific targeting: 100% of Neutral/Mixed states were hit, suggesting a "pressure on the undecided" dynamic. Temporal lag analysis across 346 state–federal-action pairs shows that federal actions on Neutral/Mixed states overwhelmingly follow state legislation (median lag +92 days, only 13.3% proactive), consistent with reactive retaliation. Causal inference modeling (DoWhy) confirms this effect is statistically significant (p < 0.0001) and robust to refutation tests.
 
 ---
 
@@ -464,7 +464,8 @@ Analysis of the 30 documented federal funding events reveals a five-stage escala
 1. **Small sample size** — Only 4 Accommodate states limits statistical power for posture-level comparisons
 2. **Confounding variables** — Political alignment correlates with both data center posture AND immigration/DEI policy positions
 3. **Blanket freezes** — Many events hit "All States," diluting the signal in targeted analysis
-4. **Effect size** — With current sample sizes, approximately 30 states per group would be needed for p < 0.05 significance on overall targeting; the energy-specific signal at 100% for Neutral/Mixed states warrants monitoring as data accumulates
+4. **Effect size** — With current sample sizes, approximately 30 states per group would be needed for p < 0.05 significance on overall targeting
+5. **Neutral/Mixed signal** — The 100% energy-specific targeting rate for Neutral/Mixed states is directionally striking but based on only 4 states; this warrants monitoring as more data accumulates
 
 ---
 

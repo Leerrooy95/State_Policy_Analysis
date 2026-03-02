@@ -110,7 +110,8 @@ def validate_state_names():
     with open(fp) as f:
         datasets['energy_comparison'] = [r['state'] for r in csv.DictReader(f)]
 
-    # state_federal_impact_summary.csv (ANALYSIS folder)
+    # state_federal_impact_summary.csv (ANALYSIS folder at repo root)
+    # REPO_ROOT = 02_CSVs_and_Datasets/; dirname gives the actual repo root
     analysis_root = os.path.join(os.path.dirname(REPO_ROOT), "ANALYSIS")
     fp = os.path.join(analysis_root, "state_federal_impact_summary.csv")
     with open(fp) as f:
@@ -203,7 +204,8 @@ def validate_dates():
 def validate_posture_labels():
     print("\n=== 5. POSTURE LABEL CONSISTENCY ===")
 
-    # Load canonical postures from lookup table (ANALYSIS folder)
+    # Load canonical postures from lookup table (ANALYSIS folder at repo root)
+    # REPO_ROOT = 02_CSVs_and_Datasets/; dirname gives the actual repo root
     analysis_root = os.path.join(os.path.dirname(REPO_ROOT), "ANALYSIS")
     fp = os.path.join(analysis_root, "state_posture_lookup.csv")
     canonical = {}

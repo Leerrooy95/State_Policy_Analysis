@@ -1,0 +1,47 @@
+state,state_code,metric,value,national_average,national_rank,year,source_url,last_verified_date,confidence_level
+Arkansas,AR,Average retail electricity price (cents/kWh),9.59,12.94,43 (low cost),2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Arkansas,AR,Net summer capacity (MW),15907,N/A,31,2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Arkansas,AR,Net generation (MWh),61542484,N/A,26,2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Arkansas,AR,Total retail sales (MWh),49895812,N/A,29,2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Arkansas,AR,Primary energy source,Natural gas,N/A,N/A,2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Arkansas,AR,Carbon dioxide emissions (thousand metric tons),26858,N/A,26,2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Arkansas,AR,CO2 intensity (lbs/MWh),960,N/A,15,2024,https://www.eia.gov/electricity/state/Arkansas/,2026-03-01,High
+Texas,TX,Average retail electricity price (cents/kWh),9.79,12.94,42,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Net summer capacity (MW),168317,N/A,1,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Net generation (MWh),566502688,N/A,1,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Total retail sales (MWh),505431317,N/A,1,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Primary energy source,Natural gas,N/A,N/A,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Carbon dioxide emissions (thousand metric tons),211902,N/A,1,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,CO2 intensity (lbs/MWh),823,N/A,22,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Grid model,ERCOT (isolated from national grid),N/A,Unique,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Texas,TX,Market structure,Deregulated (competitive retail since 2002),N/A,N/A,2024,https://www.eia.gov/electricity/state/Texas/,2026-03-01,High
+Oklahoma,OK,Average retail electricity price (cents/kWh),9.09,12.94,48 (very low cost),2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+Oklahoma,OK,Net summer capacity (MW),31907,N/A,11,2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+Oklahoma,OK,Net generation (MWh),94069145,N/A,18,2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+Oklahoma,OK,Total retail sales (MWh),72083773,N/A,22,2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+Oklahoma,OK,Primary energy source,Natural gas,N/A,N/A,2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+Oklahoma,OK,Carbon dioxide emissions (thousand metric tons),28769,N/A,21,2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+Oklahoma,OK,CO2 intensity (lbs/MWh),673,N/A,31,2024,https://www.eia.gov/electricity/state/Oklahoma/,2026-03-01,High
+New York,NY,Average retail electricity price (cents/kWh),19.66,12.94,10 (high cost),2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+New York,NY,Net summer capacity (MW),41288,N/A,8,2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+New York,NY,Net generation (MWh),129015493,N/A,9,2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+New York,NY,Total retail sales (MWh),140497501,N/A,7,2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+New York,NY,Primary energy source,Natural gas,N/A,N/A,2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+New York,NY,Carbon dioxide emissions (thousand metric tons),31513,N/A,17,2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+New York,NY,CO2 intensity (lbs/MWh),537,N/A,40,2024,https://www.eia.gov/electricity/state/NewYork/,2026-03-01,High
+Virginia,VA,Average retail electricity price (cents/kWh),10.62,12.94,38,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,Net summer capacity (MW),29147,N/A,15,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,Net generation (MWh),102698615,N/A,13,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,Total retail sales (MWh),138044772,N/A,8,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,Primary energy source,Natural gas,N/A,N/A,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,Carbon dioxide emissions (thousand metric tons),29439,N/A,20,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,CO2 intensity (lbs/MWh),631,N/A,37,2024,https://www.eia.gov/electricity/state/Virginia/,2026-03-01,High
+Virginia,VA,Number of data center facilities,~643,N/A,1 (most in US),2025,https://www.pewresearch.org/,2026-03-01,High
+California,CA,Average retail electricity price (cents/kWh),27.04,12.94,2 (high cost),2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,Net summer capacity (MW),96773,N/A,2,2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,Net generation (MWh),214191383,N/A,4,2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,Total retail sales (MWh),245717145,N/A,3,2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,Primary energy source,Natural gas,N/A,N/A,2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,Carbon dioxide emissions (thousand metric tons),39594,N/A,6,2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,CO2 intensity (lbs/MWh),407,N/A,44,2024,https://www.eia.gov/electricity/state/California/,2026-03-01,High
+California,CA,Number of data center facilities,~288-299,N/A,3,2025,https://www.datacentermap.com/usa/california/,2026-03-01,Medium

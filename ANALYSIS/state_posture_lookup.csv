@@ -1,0 +1,7 @@
+state,state_code,posture,posture_detail,key_action,source_url,last_verified_date,confidence_level
+Arkansas,AR,Accommodate,PSC bypass + tax incentives,"Act 373 (PSC bypass); Act 548 (data center tax incentives)",https://www.arkleg.state.ar.us/,2026-03-01,High
+Texas,TX,Accommodate,Preempt moratoriums + large load framework,"HB 2559 (preempts local moratoriums); SB 6 (large load interconnection framework); ERCOT model",https://capitol.texas.gov/,2026-03-01,High
+Oklahoma,OK,Push back,Moratorium + ratepayer protection,"SB 1488 (moratorium until Nov 2029); HB 2992 (ratepayer protection); HB 4424 (tax incentive sunset)",https://www.oklegislature.gov/,2026-03-01,High
+New York,NY,Push back,Moratorium proposed,"A 10141/S9144 (3-year moratorium on data center permits >=20MW)",https://www.nysenate.gov/legislation/bills/2025/S9144,2026-03-01,High
+Virginia,VA,Push back,Moratorium + tax rollback,"HB 1515 (moratorium — continued to 2027 session); HB 961 (tax incentive rollback); HB 897 (emission-free backup generators)",https://lis.virginia.gov/,2026-03-01,High
+California,CA,Push back,Study mandate + vetoed water reporting,"SB 57 (CPUC study on data center ratepayer impacts — signed law Oct 2025); AB 93 (water usage reporting — vetoed Oct 2025)",https://legiscan.com/CA/text/SB57/id/3270247,2026-03-01,High

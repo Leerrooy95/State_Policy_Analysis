@@ -1,6 +1,6 @@
-# State Policy Analysis v1.0
+# State Policy Analysis v1.2
 
-**A data-driven examination of how U.S. states are responding to the data center and energy infrastructure boom — from regulatory accommodation to outright moratoriums.**
+**A data-driven examination of how U.S. states are responding to the data center and energy infrastructure boom — from regulatory accommodation to outright moratoriums — now including statistical correlation analysis of federal funding withholding patterns.**
 
 ---
 
@@ -10,13 +10,17 @@ This repository documents the divergent state-level policy responses to the rapi
 
 The core finding: **states are splitting into two camps** — those that actively reshape laws to accommodate data center and energy expansion (e.g., Arkansas, New Hampshire), and those that are pushing back through moratoriums, ratepayer protections, and tax incentive rollbacks (e.g., Virginia, Oklahoma, New York, Georgia, Vermont, Maryland).
 
+**New in v1.2:** Statistical correlation analysis examining the relationship between federal funding withholding (30 documented events, 2025–2026) and state data center policy posture across 26 states, including temporal lag analysis and causal verification.
+
 ## What's in This Repository
 
 | Folder | Contents |
 |--------|----------|
 | [`01_The_Baseline/`](01_The_Baseline/) | Original research files documenting Arkansas's legislative architecture (Act 373, Act 548), the DATA Act of 2026, NH HB 672, AVAIO Digital, and capital flows |
-| [`02_CSVs_and_Datasets/`](02_CSVs_and_Datasets/) | Structured CSV data organized by state — legislation, energy statistics, capital investments, and cross-state comparisons |
-| [`Report.md`](Report.md) | Full detailed findings report with verification status, multi-source citations, and analysis |
+| [`02_CSVs_and_Datasets/`](02_CSVs_and_Datasets/) | Structured CSV data organized by state — legislation, energy statistics, capital investments, cross-state comparisons, and expanded 27-state posture classifications |
+| [`ANALYSIS/`](ANALYSIS/) | Consolidated analysis CSVs for 6 target states (AR, TX, OK, NY, VA, CA) — energy profiles, legislation tracker, capital flows, federal impact summaries, and posture lookup |
+| [`Correlations/`](Correlations/) | Statistical correlation analysis — federal funding withholding data (30 events), temporal lag engine, independent causal verification, and summary results |
+| [`Report.md`](Report.md) | Full detailed findings report with verification status, multi-source citations, correlation analysis, and structural pattern analysis |
 
 ## Key Findings
 
@@ -58,6 +62,44 @@ By February 2026, **300+ data center bills** had been filed across **30+ states*
 | **New Hampshire** | Off-grid provider exemption from utility regulation | HB 672 |
 | **Texas** | Pro-data-center, state preempts local moratoriums | HB 2559 |
 
+## Correlation Analysis: Federal Funding Withholding vs. State Policy Posture
+
+### Statistical Findings
+
+Analysis of 30 federal funding withholding events (Jan 2025 – Feb 2026) against 26 states classified by data center policy posture (Accommodate, Push back, Neutral/Mixed) reveals:
+
+| Finding | Result |
+|---------|--------|
+| **Overall correlation** | No statistically significant relationship between posture and overall federal targeting (ANOVA F = 1.336, p = 0.2824) |
+| **Energy-specific targeting** | 100% of Neutral/Mixed states (CO, MN, NJ, NM) hit by energy-specific withholding vs. 50% of Push back and 25% of Accommodate states (χ² = 4.875, p = 0.087 — approaching significance) |
+| **"Pressure on the undecided"** | Neutral/Mixed states — those with competing incentive vs. restriction legislation — are targeted at the highest rate, suggesting a swing-state coercion dynamic |
+
+### Temporal Lag Analysis
+
+Measuring the time gap between state legislation and federal funding actions across 346 state–federal-action pairs:
+
+| Posture | Median Lag (days) | % Proactive (federal acted first) | Interpretation |
+|---------|-------------------|-----------------------------------|----------------|
+| Accommodate | −19 | 57.6% | Slight federal preemption |
+| Push back | −74 | 53.4% | Mix of preemptive and reactive |
+| Neutral/Mixed | +92 | 13.3% | Federal actions overwhelmingly follow state legislation — consistent with reactive retaliation |
+
+### Causal Verification
+
+An independent causal model (DoWhy framework) estimates that adopting a "Neutral/Mixed" posture changes the federal action lag by **+150.98 days** (p < 0.0001). Refutation tests confirm robustness: a random common cause barely shifts the estimate (150.77), and a placebo treatment reduces it to near-zero (4.87).
+
+### Five-Stage Federal Targeting Pattern
+
+| Stage | Timing | Action | Who's Hit |
+|-------|--------|--------|-----------|
+| 1. Blanket Freeze | Jan 2025 | EO-driven IIJA/IRA/OMB pauses | All 50 states |
+| 2. Selective Enforcement | Feb–Apr 2025 | Sanctuary conditions, FEMA continued freeze | Blue states + sanctuary cities |
+| 3. Compliance Ultimatums | Jun–Aug 2025 | PREP gender identity, education DEI | 40+ states warned; CA terminated first |
+| 4. Targeted Terminations | Aug–Oct 2025 | NIH, DOE clean energy, MSI grants | CA (NIH), 16 blue states (DOE) |
+| 5. Selective Release | Feb 2026 | FEMA disaster aid released to some, not others | CA, IL, MN, CO excluded |
+
+**Critical insight:** Even politically aligned states suffered significant withholding — TX ($700M education), AR ($64M education), OK ($70M education + $6.3B Medicaid hospital cuts). The difference appears at Stage 5 (selective release), where red/swing states are restored more quickly.
+
 ## For Deeper Context
 
 This repository is a companion to [The Regulated Friction Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project), which examines these dynamics at the geopolitical level — documenting how timed information disclosure regulates public attention to enable structural shifts in policy and capital flows.
@@ -72,6 +114,8 @@ All findings are cross-referenced from multiple non-partisan sources:
 - **Industry**: Data Center Dynamics, Utility Dive, ALEC
 - **Press**: PRNewswire (AVAIO), ADQ.ae, Reason, NWA Democrat-Gazette, Arkansas Advocate, Talk Business & Politics
 - **Policy**: MultiState Policy Watch, Pew Research Center, Built In, KERA News
+- **Federal Funding Data**: OMB, EPA, DOE, DOJ, DOT, FEMA, HHS, NTIA official releases; court filings; GAO reports
+- **Correlation Analysis**: Python (pandas, scipy.stats, DoWhy causal inference); all statistical code available in `Correlations/`
 
 ## Methodology
 
@@ -84,4 +128,4 @@ All findings are cross-referenced from multiple non-partisan sources:
 ---
 
 *Repository maintained by Austin ([Leerrooy95](https://github.com/Leerrooy95))*
-*Last updated: March 2026*
+*Last updated: March 2026 — v1.2*

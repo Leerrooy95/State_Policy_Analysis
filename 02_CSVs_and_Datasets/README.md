@@ -24,7 +24,8 @@ Structured data files organized by state. All data is sourced from official gove
 └── Multi_State/
     ├── state_energy_and_policy_comparison.csv  — Side-by-side comparison of 13 states
     ├── data_center_legislation_tracker.csv     — All tracked legislation across states
-    └── capital_flows_data_center_energy.csv    — Major capital investments
+    ├── capital_flows_data_center_energy.csv    — Major capital investments
+    └── Federal_Funding_Withholding_2025-2026.csv — Federal grant/infrastructure funding actions (Jan 2025–Mar 2026)
 ```
 
 ### Data Sources
@@ -33,3 +34,4 @@ Structured data files organized by state. All data is sourced from official gove
 - **Legislation**: BillTrack50, LegiScan, state legislature websites, Kutak Rock legal analysis
 - **Policy Analysis**: MultiState Policy Watch (February 2026)
 - **Press**: Official press releases (AVAIO/PRNewswire, ADQ.ae, Oklahoma House, Cotton.senate.gov)
+- **Federal Funding**: OMB, EPA, DOE, DOJ, DOT, FEMA, HHS, NTIA official releases; court filings; GAO reports; PBS, Politico, NACO, NEA, PBS, US News coverage (2025–2026)
